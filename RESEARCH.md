@@ -69,3 +69,11 @@ Phase 3 (optional): `wolt_place_order`. It always shows the full total and asks 
 - This is a private API. Wolt can change it at any time; several old `restaurant-api` paths already return 410.
 - Automating Wolt this way may break their terms of service. Keep it to personal use, at low request rates.
 - Login and some actions are protected by hCaptcha. Don't try to get around it.
+
+## Findings from building phase 1 (2026-11-16)
+
+- Shop catalogues (`loading_strategy: "partial"`): only leaf categories hold products. A category page's `items` are the products this shop stocks; `categories[].item_ids` also lists ids the shop does not stock, and `POST .../assortment/items` returns nothing for those. A page can be empty and still carry a `next_page_token`.
+- Category slugs are language-specific (`menucategory-1` in `ka`, `shawarma-marge-menu-1` in `en`), so a slug is only valid with the language it was listed in. Item ids are stable across languages.
+- `POST .../assortment/items` body `{item_ids}` works live (tested).
+- Image URLs accept `?w=<pixels>`; 20 thumbnails at 256 px are about 160 KB base64.
+- `wolt-mcp` on npm belongs to an unrelated project; this one is `wolt-mcp-server`.
