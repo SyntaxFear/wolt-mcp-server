@@ -1,0 +1,1006 @@
+{
+  "city": "tbilisi",
+  "created": {
+    "$date": 1794854217265
+  },
+  "expires_in_seconds": 900,
+  "miyp_launch_enabled": true,
+  "name": "search",
+  "page_title": "Search results",
+  "search_bar_enabled": true,
+  "search_id": "1c5bd1fc-9cfb-4e9a-b260-e2404d659a15",
+  "search_results_layout": "SPLIT_VIEW",
+  "search_state": "CsxiCghjYXRlZ29yeRIYNjM5MzE1ZmQ1ZjQ0NGVjNzc1NzA5YTUyEhg1OGQ4ZjkzNzI5YmY1NDNiZGNiOWExYjUSGDYyODIzZTJiYzQzMDViNDdlNTU5YmJjOBIYNTcwZjc0NzlmODJmNDU3NzY1NTVkNWFkEhg1NzE5Y2RkYjc3Y2IwYTFjODI5ZDliYzISGDVhZWQ5ZDY0NWVlYWI4MDAwZTU2NDNkNRIYNTcwZjY4YWFmODJmNDU3NzYzZWZjODdhEhg2MzBjODQ4YzhmNmZiNzU4OGUzMTk0MGESGDU3MGZiNjJmZjgyZjQ1MjkyOTFiZTczOBIYNjRlMzQ0ODFlMGMwMDQwZTBiYTFiNjk2Ehg2MzZhNTA4NDA0OGRiZGNjMzBhMGU2MzASGDYxNTQ2YTAyMjNmMjJkZmY1ODc0ZmU4YxIYNTcwZmFkZjI4NDIyYjkxODQ5ZWM4YmQ0Ehg2MDU4NzE0ZWRiNjExMDIwNmEzNTIxZTcSGDU3MGY3ZmIxMzFiOTRjNzhhZDRmY2Q1MhIYNjM3NGVmNTYwNTk1MzNlOTg2MjQyNmFhEhg2MGFiNmY3NTI0NGQ2NmYyODk3MjMzMjYSGDVlOTQzNWFiZDFiOWM0MjBiNWMyZmNjNBIYNWU3Yzc5NjM5NDk5ZmE5YTg1MDUwYjgyEhg2MGE3ODI0NjNlZDg4MDhmZGIxYzcwYjgSGDY0MTgwYWRjMjQ0YTE5Mjc2YTZiN2YxNxIYNjE4NTJjYTFlN2NmMmM1OGZlODY3MDM0Ehg1YWUyZjA5MDg4MzRkNTAwMGI3NjNmNzASGDYwYTdkOTE3ZDI0ZTBjNDlhMTA3YTA4YhIYNjY0MWY1NzRmNGQ2ZDg4ZGQ4ZjI0NGM0Ehg1ODMyYmZkZTkxMDcyZDJmYmU3ZWQ0MDQSGDYxOTIzYTMyMmIzYWRhMWIyMDI2YTczYxIYNjMxNmYzMTc2YjdiMmE1ZDdlM2Y1MzIzEhg1ZmM3OGMzMWVkYTc1YzY4YThkMWM5ZmQSGDY2NTQ4MDk4ODFmMmZjNTcxYzVlZDUwMxIYNjA5NGZkNjRiNjhhZGMzMTQ3MTI3MGEyEhg1NzEwOTczYTE2ZmYyOTE2N2Q2NDBmZGYSGDY0ODFjMjBhZmM1YzgzZGJkNzU0MzM2YxIYNWJlZGE0MDhhNjZkMGQwMDBhZGZhMTc4Ehg1ZDQ0MWUwYjM5NGZkOTgwNTIwNTg5ZjMSGDYyODIzZTliOTEzMTc1ZmY0YTIxZDY4YhIYNWIwZmRjZTEzM2ZmY2EwMDBiMDA0NzQxEhg2NWIzYTYyYjQ2NzRkN2U2MDBiNzk4OGYSGDVmMmQxYjlmNzhjMDE2YWQwOWJkYzgwMhIYNjA3ODM5MWNkOTIyNjhkOTI5ZDdlMjg0Ehg1NzBmNjUzOWY4MmY0NTc3NjNlZmM4NmYSGDVjMDY3NGM3YzA3MTMxMDAwY2U1ZDNhMRIYNjBkMWQ4NDI3YTM1NDA0YTI3MDMxODUzEhg1ZmQwZDM0ZjFiMWI2NDBmOWUwNzQ4NzgSGDU3MGY5NjU5MTZmZjI5MTAwOTNjMGI5NRIYNThmY2VmMGVlNzE1YmQyZjExMTExYjlhEhg2MjczZDA0ZWU5MjI2NmQzNTFlODliYTISGDU3MGY2YzExZjgyZjQ1Nzc2NmM4YTM2MhIYNWFlMmYwZDYzOWVjZjgwMDBkYmY2YmIwEhg2MjA2NTJjOGZkZjA4YjViNjNhYzgzZTYSGDViZTk4YTE4Mjg5NmFiMDAwOTMyN2Q4NhIYNWZjNzhjMjFiYWY1MmUwZWY2MmQwNTQwEhg2NWM5ZTg4MjAzMTMxYjFhOGRhMWE5YjkSGDVmNmIyOWU0MGZlZjEzY2M5ZDJiMTU0NhIYNjRmZWU5YmY0ZmZmNzBjYTM4ODAwOTUxEhg1YzM4ODhlYTQ4ZjZkNTAwMGE4Y2JlZmESGDU3ZTk2NTIwYzM4YTQxMDljNjI0MzMyOBIYNjc1YWVkZjg5NzJmM2JkMDQzN2ZlOGUwEhg1YmQwNDFmYzdiNWE2NDAwMGJmN2ZjZGISGDVkZTRmNzAxZWNkNzBjYTQzODJjMGE1ZRIYNWJlYjRjNjgwN2QyMTMwMDBjM2ZjYWQ3Ehg2MDk0ZmRmZDBlNGRhNTlmOTJkNGQ3NGQSGDU3MTlkOTBmYWM5MGZjNDkxOWM5MmMyNhIYNTljMTA0MjhkNjc3N2MxODI3M2I1Y2QzEhg2MjE1MDJkMGNhOTkxY2M5Mzc3MTFjZDgSGDYwZGRiODA5YWExODI1MjA5MDg4ZDA0ZRIYNTlkMzYxYTE5YjgwODkwMDBiZDdmMWRhEhg2ODkzNDM5MzMyOTdiM2FlZWRkYmEyZGUSGDU3MTA5ZDU4ODQyMmI5N2IwNTAyYjdmNRIYNWU2NzU1MmE4M2EyNDhiMzY3NjBkNDc0Ehg2MjAzY2ZlZjNlYTBiOWJhZGE2ZGNhMDESGDVkZDJhMzNmN2Y0ZmM5ODQ2M2Q5MWRkYxIYNTgyMWM2YTIyN2JjMmIyZThlMDdkODZkEhg2MGRkYjgwMzQzOTQwNjU3NjViMzM3ZDESGDZhMTQwZjAxMGJkYmFiMmQxNDlmYzRiYhIYNjU3YzM5MGNmOWRhNmJiZDZmN2U2ODU1Ehg2MjYwMGM2NWEwOWI2OGIyZTAxYzJhMzESGDU3MGY3NmVjMzFiOTRjNmIzNDgxNTkyOBIYNjFlOTU2MjU5ZDAyMjBlMWY1ZjRiZWFmEhg1NzE4N2I1MmY3MGQ2NzY0ODgzNzcyNzkSGDU3MGY2OGEyZjgyZjQ1Nzc2NDk1MzRiMhIYNWQzZThkZDQxNzQxNzRmMGEyNDAxNTliEhg1Y2Y1MDMyYTdiYjI4OWQwMWE5ZWUxZDgSGDVjODc5YWE1MWRmMTNiMDAwYTVmNDI4MRIYNjNiN2M4ZTExMGZhZTBmYmM1NTg5MDg3Ehg1NzBmNjU2NjE2ZmYyOTZmY2FmOGVmODYSGDY0ZGIzZTE5NWYxM2MwNGRjMTE0MjA1OBIYNjIxOGRlYjRmZWU2Nzc2ZDFmOTJjY2YwEhg1YmY1NmE4NzM2MzViOTAwMGE2YTUxM2QSGDVlNjc3MzYzMWQxNzRjMGU0OGU2Yjc0ZRIYNjA1Yzk2YTY4ZmJkMDY1MGFlNzcwODZjEhg1NzFmMjBjZWRmMzIxYTA1MGFhZTNkYWQSGDVmMzUzYWMwZGJhOTU1ZDlkMDEzYjUxMxIYNjJiMmVhZDM4MGU1NGMzMDQ5NWNiZGFhEhg1ZGNiMDRlMTk2NTI0NWE4ZWYyNGY1NzESGDYwOTRmZThmMGU0ZGE1OWY5MmQ0ZDkyMxIYNjBiZGQxMmQ2NGJmODI1Y2U3ZjkxMzEzEhg2MDUwOTJlMzk5YjVmYjk4ZjNhMjU4MzASGDYzODRhYTQ1ZTA3MmZjMDhjZWFmOTU4OBIYNThkYTdhNjk1MWE3ZTA3MWQwMTEyYmE3Ehg2NmE3YTI0MjAwNmQ1Zjc3YTFlMWNhODkSGDVkZWU1MzNmN2QwYjk0ZmQxZjdiMTgyZRIYNWZkZDA5YjI2YTk1MGQ5ZDZjNjVjNDdlEhg2MTI0YjE5MjgzMDJkNjg4ZDMxMDUyMDMSGDYwN2Q3NmQyYjE1ZGVmN2U0ZjEzNzEzMxIYNjI2MDBjNDg5YmQzY2U0YzIyYTljNGY1Ehg2MWJjZWJmOTNiMmRmOGU2OTljMGJlYmYSGDVjOGY5MTE5N2YzN2RjMDAwY2Y0NzYzZRIYNThiNTFiOGM4NjhhMjcxNDllOGNkMTYwEhg2MWMxOGZhMTc0ZWE4NDEyNzBmMTlmMGMSGDYzMjgyYTVhNGFiYmE0YWVhNTc5MmNjNhIYNTcwZmEyNDAzMWI5NGMwYmJmN2Y3OTc3Ehg2MjM5YzdlYTU5ZWM2MjE2YmY1NmM2NmYSGDYyNDFjMGM0NzcwOWVlYmZmM2NmYjY2ZhIYNjBkZGI4MTQ0OGQ5OTAzOWU4ODFhYjVhEhg1NzBmOTY3ZWY4MmY0NTE3ZTVlODY5ZTYSGDYwNzU4YTRkMmZmMWUzNGViYWE3ZTk0YxIYNjJlNzgyN2RjOGVmZTZhNDlmYmEzNjQ5Ehg1YmQyZDkzYjVlYWJiMTAwMGI4OWUyZjYSGDVmZGI2ZGJjYjU5NjA4ZjcyYzhiN2E4NhIYNWNlNjhjMDczNTM3N2JlNzkyNGFmYjRmEhg1ZDc2NDkxMDA1NWI0MTc3OWZiMzc0NGYSGDYzODg4NmRhMjY1NDc2YjEyYzU0M2EzYhIYNWU3ZGFjYjA5MTFhOThiNDRiZGYxODczEhg1NzBmOWNiYzE2ZmYyOTEwMGI0NzE0YTQSGDU5ZGExNTYzNzk0OTNhMDAwY2U5NWU2NxIYNjc1YWVkY2Q2ZjBmNzVlYzUzZWY0N2M3Ehg1NzE4OTA1Mjc3Y2IwYTc5MDU5ZjIwYmISGDVlMTgyZDAzYThmYjUzMDgwY2M0OGM5ORIYNjgxOWI5NjI5MzNmZjM4MTJhNDY0ZTYzEhg1ZGVlNTM3M2VkMmMzNWIxMmVkMjJmZjgSGDU3MGY2NDg3ZjgyZjQ1Nzc2NDk1MzRhMRIYNjMwYjY1YmE3Y2U3ZDU0YzM0MmJkMmJhEhg1Y2I4OWI2ZjY2MGVlMjAwMGRhMDkxNzISGDVjZDAyODgzNDdkYmVhMjBmYTkyNzgxZRIYNjMxNmYzOWNlYzgwMGVhZDY3MWQ3NjNkEhg2NzVhYTlhYTUyN2NmYjNlN2ExN2M0MTQSGDY1NmRiNzdjODYwMjE0NjZkMGNmMzg1YRIYNTlkZGVjYmE3OGY4OWEwMDBiNzcxM2NmEhg1ZTY3NzNhNmRhNWMyODRhOGM3NzE0NDQSGDVhMGMyMzk0MmY4MWRhMDAwYjcwOGQ2NxIYNjUwOTYwZDA3NTcxNWZmZDUzNmRlODcwEhg2MGQxZjhmZTNjM2UzN2I3ZmM3MWZmMzcSGDYxYzJlMGU0MGJmOThkNGQ4NjE4ZjVlMxIYNjJhMWY5NGQ2N2MyMzhmZTE1ZWZlODFmEhg2NzEwYjM3Mjg3ODg0MjhjOWUzOWRhYjISGDU4NzYxNjBkMzdkYzgxMWNhOGZmNTIxNhIYNWY3YWQxMzU2NmYzOGQxYzhlNTVjMDBkEhg2MGQxZGQyYzE2MzZhZDBmM2QyNzJlNTESGDVkZjllNTdkY2MwYjBkMTIyM2I1ZDQyORIYNWJhYjc1NDlhNjM5NTAwMDBiZjUzZjgzEhg2MDIyOTE4OTBmNzIyMzgyNjI5ZDc5N2QSGDYyYTBiNjBlZTdmNmY0NmJlNGVjZGQ5ZRIYNWY5NTVlZTljZGZiZDBkMzVmNTBmMmVhEhg2MGQxZGYwZDVlZWExYjk4NGMzMDJmZmISGDYzNmE1MDkyMjQ1ZmQxMDUxYjQzN2JkNxIYNjk0M2IzZjczY2MwZmQ5MmRhZTI4ZDZjEhg2MDdkNzY4ZDcxYTMxYmExMzkzYzVmYzUSGDY5NDNiMzQ5M2NjMGZkOTJkYWUyOGQ0ZRIYNTcxMDkzNWY4NDIyYjk3YjAzMDZjOTY5Ehg1ZjU3ODNkN2NlNzdiM2ExZDE3Yjc3OWESGDVkNGQ2NTljZjA3ZTY0ZWU1NGJiMTExORIYNjc4NjY4NWNiYmZiZmI3MDgwYWIzYTRkEhg2MGE3ZDkwZjNkZWQzOTc5YjZjZTNmMGESGDU5NzY2YzU1MGNmNzBjNTBmMjAyNTVmZhIYNTcwZjc4YjBmODJmNDUwNmIxNTFiMzk0Ehg2MGY2N2VkZTAzNjhkMTM3YzkxYTFkM2USGDYwOTRmYmRkYjY4YWRjMzE0NzEyNmVhMRIYNWRjYjA1MjRlZmY0NTk3NDgzMjhiY2ViEhg1NzFhMDJkZjc3Y2IwYTM4N2IxNDgwY2YSGDYzNDU1MjAxY2IxYmI0MjNmODhjMzYyNRIYNWExZTkzYTg5YTcwOGYwMDBiNWEwYTY2Ehg1ZjIzYzM3MTM3NGZjYjYzMGRhYThhNzYSGDU4ZDUyYjNhNjNkZGRjNmQzMWQ0MmNkMhIYNjRhZmZmZTNjOWQ4NGZkOTFlYzE0MWI4Ehg1YTMyODJjYzJlMTE0ZjAwMGVkYjc2MDkSGDU3MWEwZDdlMjI4MGMwMDdkOGE3MzQ2ZhIYNWRhNmJlYjkzNTE3YWIzMmQ0ODJhMWU1Ehg2MThkMGJmMjNlMDdkMDc4OGE5YzAzYTQSGDYwNzU2MTVkMDAwNWVhMTQyMGI0Mzc1MhIYNWM2NmY2ZmViNzg3NzgwMDBhZGZiOTI4Ehg2MTRhZWMzZjk3MmU3MDQ1MTRkMDE2YjMSGDYwN2Q3NjlkOWU0NGY5MDE0MDNjNDZlORIYNjI2OTRiNzhkMjdlM2UxNjBiZmNmNDZmEhg1NzBmOTY2ZGY4MmY0NTE3ZTVlODY5ZTQSGDU4ZTY2OTk1ZGViZmZlMjc0YzY4Mzk1MhIYNWU3ZGFjZjY5MTFhOThiNDRiZTA1NGQ1Ehg2NjQxZjA4YWFhZDdlZDgwNjU2YTg4MWMSGDYzMTZmNDRlZWM4MDBlYWQ2NzFkNzZkMRIYNjI0MWMwYjE1NGY2MzJhYTQwY2ZiMjgxEhg1YzhiNzliZjRjN2YwZDAwMGEwYzJlOTkSGDY1MDk2MGQ3ZGVmNmU0YjY2MDI1NDI3NRIYNWU3YzZlMDk0YTA2YjI5YTIzYTZjN2E5Ehg2Njg1NDk3MTE4YTE1ZDMyYWE1Mzg0NTASGDY1Mzc5NTM5YjE4MTc0MjIwNTdiNWUyNhIYNWY1MDk1ODExOTY0MzllNDc0MTBhNTVmEhg1Yzc3YjBkY2FhZWViYTAwMGI4Njk1ZTQSGDU5Yjc5ZTk5NjM2NGQ0MWQ3N2MwZmQ1ZhIYNjBkMWU1MWQ2ODk3ZTNiZGE3MzE5MTZhEhg2MDk0ZmEyZmI4YzFmNTk2MDc2MTNkOWESGDU4YTVkMjljOGYwNTdmMGMzOWRhY2RlMhIYNWYxYWQ2NmQ1ZDc1ODViMWNkM2U2NWJmEhg1NzE5ZDQyNDc3Y2IwYTFjODNiZjcyZTASGDY4ZTUwNDY3M2ZmZmFmMDJiNGRmZWE1ZRIYNjdmY2QwM2ZiYzE3NzAxZjY3MTc2MzIyEhg1OGYzZWI3Mjg0ZjNjYjY3OWY0NGZhMzgSGDZhMTQwZjMwNWRmOWZiZTk4ZjlhZDc0ZBIYNTcwZjdmYmJmODJmNDUwNmFmZDBkYmMyEhg1N2U5NjU1MzY3NzRlYjc5MWY2ZjA5ZTASGDVmZDc0MGU4ODNlODk4NmEzOGFhMWI5ZhIYNWZkMGQzOGM0MDJkODUyMDk2ODM2M2ViEhg2YWQ3NTc2ZjdmYjM3ZDk0MDQ2OWU4OGYSGDU3YzgxMzFmYzczMGZlMzJkN2M1MTUyYxIYNjA3NTYxNTZhNjNjZjQyYjg5ZGI0NGY3Ehg1ZDdlNDg3ODU2MDQ4YTgwMjA3NDY3MzESGDViODY2YmZlMGViYjRjMDAwZGU4OTY3ORIYNjQxODBhYmQ3ZDAyOTc1MTA2N2ZiYTY0Ehg1OWRlMDY4YWI2YWY3ZTAwMGIwN2M3ZTUSGDVjYmVmODkwNjk4YTg5MDAwZDk5MWEwNRIYNWMyMDkwZTk4NDAzYWQwMDBjZTU2OWNlEhg2NDAxZDgyODc1ZjJjMjc1Y2M2ZjQyZmISGDYzYjZkMjJmZDBkNTc1N2QyOWRlNTk1ZRIYNjM4NGFhNjgwOWNkMTQzNjllNGViODU0Ehg2NTRlMjU4MmVlMWZkMGNmNTA2MDgwODISGDYwOGE2YTViNjMwYzEzNGVhN2M1NzNjMhIYNjBkMWRmZGIzNGJlYzM5MzA2N2ZlM2E0Ehg2MDk4ZTJkOTk1NDIwYTUyYTI1ZWVhYzQSGDVjNDVkNTljZjNjNjQwMDAwYTZmYWE3YRIYNWMwZTdjNzllZWQwMjIwMDBhZjMwMzgxEhg1OGQxNmMwN2ZmMWJjMDFjZmNmZjg4NWESGDU3MGZhMjAyZjgyZjQ1MTdlNjA1NjcxMRIYNTcwZjY4YjEzMWI5NGM2YjM2Njc3YmJiEhg2MGFmM2MzNmZkZWM0YjY0OTYxM2M0YmYSGDU3MGY2NjY1MTZmZjI5NmZjZDljZDdjOBIYNjAwNTU2ZTA3NzVhN2MxM2ViYzgyYjVjEhg2MWExMDE3YjY4NTgzMzE0MzA4YjA0MzQSGDY0MDVhYmZkNDU4NGRhN2U1ZmJiODI3YxIYNWU2NzVhMTAwNjkwOGFlMTY4NWU2MGRjEhg1N2JlYjVmMjZhMTcyZTIyOTExYWNlNTMSGDY2YjFlZDk0OWU1N2ZmOWIzMmRlMTU2OBIYNTg1MDMwOGYyOTZkZmMyMDYxODM2OWFiEhg1NzE5ZGY3YjFlNGMwMjZhZTUzM2YxOTQSGDU3NmJhY2Y1MWFlOTE1MDZkYzhhMTYwZRIYNjJlY2RlYzU4NmEzZTJmM2Y0M2JmNmIxEhg2MjQxOGFlYzI3ZjEwNDkwNzBmNThiOGISGDYwZDFkZDc2N2EzNTQwNGEyNzAzMjlhNxIYNjBkZGI2NDFiNThmODk4ZGM1OGFkYTEzEhg1NzEwOTg4MjE2ZmYyOTE2N2UwNThkY2YSGDYzODRhOWY0MjVjZTFkZWRlODEyNDY4MhIYNjA3NTYxNGMwZjdmNGYwNWZhYjQyZTg3Ehg2M2I2Y2Y3NDE4MDQ3NmQyMzNjMzNjNDESGDVmZjZmNGNkOGY1MDcxMzQzM2VhNGViMxIYNWNkYmM4NGZhZmE1YjMyN2U2MTcwOTNhEhg1NzBmNjhiZjE2ZmYyOTZmY2M1YmFjMzASGDZhOTZkNDQyYTYyOTc1N2VhMDFmMTk5MBIYNjA5NGZjY2NiOGMxZjU5NjA3NjE0MmFmEhg1ZjBlYWEzMDQ4YTdjYzZmZmVhNjY3MWMSGDViODZiMDg0MTlhZDgyMDAwYjQzMDVmNhIYNjhhYzVkNzVjMWE2ZThjM2YxYzc0MDM5Ehg1NzBmOTY3NzMxYjk0YzBiYmRmYTQyZjkSGDU3MGY5YTIxMTZmZjI5MTAwYjQ3MTQ5OBIYNTkwOWEzOGE1Y2NjYWQxYzBiMWI3NTNhEhg2ODViZDVkZjliNTZlNjZmNmUwZmE4NzYSGDYwOGE2YTNjNTg4NGZlNGU4NGRlMjljMRIYNjNlYTE1ZGQ4MDc2YTM3OTIwZWEzYjFjEhg2MWZhNDg5ZTk0MjI4MzJkNGUwOTcxMDASGDY3MTVmZDMyOTExZDQ4MWU5M2NmMDE4MRIYNTcwZjZkM2QxNmZmMjk2ZmNhZjhlZmEzEhg1ZTA3MDNjN2NmMzFiMGQyZTkwOGUzYjkSGDU5YWM3ZTU2NmZhZjJjMWQ5ODY5ZTkxZRIYNjVhZTY4OGI1NDY5ZWY4NTg5ODEwM2U5Ehg2MTBiODNiZTkzMDA0NTlhM2Y3YzEzZDkSGDY2ZjU1ZTE3MjEyZTkyMmYxN2E4MTVkYhIYNWViMjk1YjA2MzM4ZDY3YzNmYmU5ODhkEhg2MTRkYjY0ZTI0MmY4YTBiMjM5NjEwOWUSGDYyMTUwMmM1YmVjNzgyMmM5OWE2NTM5MBIYNTcwZjZhZDVmODJmNDU3NzYzZWZjODgyEhg1NzBmNmFkOWY4MmY0NTc3NjZjOGEzNWYSGDVjODc4ZDU5N2Y1NTQxMDAwYjJiMTBkMhIYNTcxMDk2ZmIxNmZmMjkxNjdmMDFhNTUzEhg1Y2UzYWNjMzZhOWMyYTQ3ZmM2NjgwMmESGDYzODRhYTM0MTllNTg2NjJjNzljYWI5MxIYNjA1YjEwOTU0YmU4NGY4MWU1YTNlYzEzEhg1NzZiOGNiMDFhZTkxNTc0MzBhNDQ5MGMSGDVmNmIyOWYwYTBjZmFlOWIyYzgzMWQ3ORIYNWNkZDVhY2RmMjY1YjkwNTQyNmJlNWVmEhg2NWQ0OWY0YThkZDg3MWZiNzE2MjRlNWMSGDYwOTRmZGMwOGY1ZDk0YjBhNzYxM2U5NBIYNTcxMGE0YTk4NDIyYjkwZGI0ODU4Njk2Ehg2MDk0ZmNhYTg1OGQwZTJmM2ExMjcxNzASGDU3MGY3ZDJkMzFiOTRjNzhhYjIxMjZlYhIYNjNiNmNmNGUwYzg5NTZkMWIzODRkNGUxEhg1OTRhNjIxNDYxMTg3MTRhNzQ2MTgxZWQSGDYyODRkMjhkNWUyMDlhNDU4MTJhZWJiYxIYNWNlNWEwNzU0MDY5ZjBjNDgzZTFjZmZkEhg2MjVlOGI2NWY5NjFlNmY1ZWJhMWExYzMSGDU4ZGNmZWE0YzUwMDA1M2Y1MDNhNTU2MBIYNjZmNTVjODhhZjcxYmE3ODdlMGFkMzk0Ehg1ZDlkYTcyZGMyN2MxNWE4OWI5MDU1ODISGDYxNGNhMTM1YjgxNWJjM2E0YzRiYWZhYRIYNWRmNzc4YTAxZWMwZjI0NjYyODdkOWMyEhg2M2QzYmExM2ExZjJjZGRjNmFjNWY0NTISGDYyMTRiNTA4NWNhYWI3NTI0YmZkYWE1YhIYNjI4OWY1MDBmYmIxY2I3Zjk5NTc1MDllEhg2M2I2ZDIxMTM2MzQxYTIzNWRjZTczZDkSGDYwZGRiN2ZjNTk4MTRiZjg5MjgxYWViMxIYNWJmNTZhOGY0MTdmNDcwMDBiOTM5NjljEhg2MmY0ZTg5MTQ2ZmFmZjdjMjg5YzQzMDMSGDY4YWM1OGVhYWI5YzA2ODE1YjA1MmNmZhIYNTcwZjc1MDQzMWI5NGM2YjMzMmVmMTVhEhg2MDk4ZTJlMjk1NDIwYTUyYTI1ZWVhY2YSGDYwYTdkOGU3OTdlNmI5M2E2OGZmZTU3MhIYNjc2M2NiMWUyMTE5MGViMTA2ODJhYmNmEhg1NzEwYzQyNzlmZTI4YTE4NGEzMWU0YmESGDY0ZDRhYWExZmQ4Y2RjODdjODc5MGY3YRIYNWNlM2UyODkxNWMwMmFjNmZhYTQ5NjViEhg2MzU2N2ZhM2MyMTU0ZWRlYWZiYTQyN2ESGDVkYjFjYWQyN2U1ZDYzYjM3MjFjMTAyORIYNjA2YmZhNDliNjUyMzIyZTYxNzJmZmQyEhg2YTE0MGYxM2ZmNjAxZGY5M2JlNTQ5MDASGDY1N2MzOTRhNWE2ZDgyNTEyMjI4MzgyMxIYNWFlMmYwYmU0ZGI2NzYwMDBiN2UzYzNlEhg2MDk0ZmFhYmI2OGFkYzMxNDcxMjZkNzISGDYwMTQwNjY1OWRmZjA4YzVkMjYyMTEzNBIYNjA1MDk0OTk1NDQxZThmNDBiZTY0NmMyEhg1OGY3OWZkNWExMDc4NTQxNDA2NDM5ODMSGDY5Mjk4ZTgzNWE3Y2I3MGYwN2E1ZmI2YRIYNjBiNGJkMjU4YWMwNTc2MDBiYjI0NzVlEhg2MjMxYzI2NGNkOGI3ZTZmZTlmNzY2MzASGDYyMThkYjk1ZmVlNjc3NmQxZjkyYzJhZBIYNjA5NGZjZDhiOGMxZjU5NjA3NjE0MzFhEhg1NzBmNzgwMDMxYjk0YzZiMzQ4MTU5MmMSGDYwNTBhYzYxOWFiMmU3ZmY3YjExYzhjORIYNTcwZjY2NzEzMWI5NGM2YjM1ODA4OTFmEhg2NmIxZWUwMTE1NzhkZmI2Y2U4MmIwZGISGDVlODQ2Y2M4NzRhN2QxNTlkNWExMTgxMBIYNjA5NGZjMGU0ZWNiNTQyNTJkZDRkNTc2Ehg1OTI1YTMxNzZmMjkwYjFhNmE3MjQ5OGQSGDY0MDFmNzI5Y2ZlMTA3ZmUzYjNhYjdiYRIYNjI2OTRiNmE3MGUxNGI0ZTcyNDVlZTA5Ehg1NzBmNjU0ODMxYjk0YzZiMzMyZWYxM2USGDU5ZTg2M2I5MzkwMzE1MDAwYzI5ODYyZhIYNjI4Y2M4Yjk0OGMzYjc1NjkwMjE4MTAwEhg1ZTZkZDBlZjBmYzYyYWM1MzNiYWQ1ZmQSGDU3ZDFiYzlmMjU5N2JmNTI4MTcyOGNhZhIYNTcxMGJlNzE0N2E0ZjIxODRkMDE0Y2VlEhg1ODk5OTk3OWNhNzYxNDFkNjU1ZDM3NjgSGDY4ZGE4MmQ0ZTU2MDRjMTQ0ZGJjYTA0MxIYNjIzYWVjYWM0N2UxNGQ3YTQxZTEwMDg2Ehg2MTE2MzVkNzk1NzA5ZTQyMmE2MDJmZDgSGDY3ZjhjZjYwMzZiNWVlZDMzYmZmMjc1YxIYNTliM2M4ZWIyZTc4N2IxZWU0ZmQwM2MwEhg1ZTQ1NThlZWI4Nzg4ZmM0ZDEzMTU1YjISGDU3MTlmMzA5NzdjYjBhMmExYjc0ZmJmYhIYNjA1MzFjZDA0OWI2ZTVlZWY0NjBkZDhlEhg2Mzg3NmUwMmYyYWI0NDc0MTk0Y2RhODQSGDY1MDk2MDY0YjMzODk1YjE2OTdmZWQ4OBIYNWQ0NDFkNGE3OWIyMzA0NTFlMTNjMzI4Ehg1NzBmNmFlYTE2ZmYyOTZmY2Q5Y2Q3ZDQSGDYwZDFkOGE5M2JiODM4YTg1MGQ4NTkwZRIYNWU5Yzc1MTBmMjNjMGU0YmMwYWZjYjY4Ehg1ZTdkYWQ0YTkxMWE5OGI0NGJlMWMxNGMSGDYwYTdkOTFkZjZkMTkwOGE4NzA3OWY5YxIYNWRjNDIxYTJmNmNlZWUwODdhYTQ3YTRhEhg1ZjRkZjcxMDc0YTgwYTExODI2MzE4NDgSGDYzYjdjOGE3MTVmYmE4OTZiMDk5MTVjNhIYNjBkMWRiYTM1NzFlZTVlMTM3ZDg1NTkyEhg2MWMyZTBkNzEzZGU3MzIwNjMxOGY2YTkSGDY5ZjA4NGYyYTQ1YzUzYWY5YmE1NmUyNxIYNjA1OTkxYTYwMTQyMDAxYTI4MTI0NTgxEhg1ZmFlODQ1YWVjZjNkMzM4NmZkMDU5OTQSGDU3ZTgxYjliYzFlNmQyMjQ1ZTcyY2RjMRIYNTcxMDk5NTExNmZmMjkxNjdlMDU4ZGQxEhg2MDk0ZmE4YjRlY2I1NDI1MmRkNGQxODUSGDYxN2JiNTljNDBjZjM3MDliNjcwMDZhYRIYNWRiMWNiMDFkMzg1MmVmYzA1OTIyMzhhEhg1NzBmYTI0NjMxYjk0YzBiYmM3MTgwMGYSGDYzYWRiMmNlMWIwMTZlNmU1YWZhMzc1NBIYNWRjNmVhZWQ4YmVjODFjOTAwNDU2M2QwEhg1NzE5Zjk5Yzc3Y2IwYTM4Nzk2MjFjNjcSGDU4ZjNlYjdiODRmM2NiNjc5ZjQ0ZmE0MRIYNjFjMThmOTBlMjBlMzdjNmRmNDkxMTY4Ehg1ZmRiNGViNGNmYjc0YzEzYjQzNmQ0N2YSGDU3MGY2YTNkMTZmZjI5NmZjYjM5MDMyMhIYNWY4NTk0Zjg0MGQ1NzUxOTg0MDI5M2VmEhg2NWU3NWM0OGE0MDcyNjAyOGIwNzdlOWYSGDVlNjc3MzUwODMyZTAxMDEzY2ViOGJiZBIYNTdlYWFiNmZiMjk5OWEzYTI3ZDc4MmU3Ehg1NzBmNmUzMWY4MmY0NTc3NjQ5NTM0YmYSGDYwNzU2MTdjY2UxMDk5NDdmY2QyYmMyORIYNTcxMGM4NDQ4MTNmN2UxODQxN2E3MTRhEhg2MDZiZmEzYjFlZjdkZDM1YWU3MmU3OTkSGDVmNDhkYmNkYWI1YzczMzNhMGUyYTQzMxIYNjNkMmRmZDNmZjRhNzIyYmYwOWU0YjlhEhg1NzBmNzI1MzMxYjk0YzZiMzU4MDg5MzgSGDYwMDU5MTYyZmVhNDMxYjcwZDBkYmQ4MRIYNjI0ZWVhYjJkNjBlMDlmN2JlZThhNTEwEhg2MDIyOTFjYmRhOTY1YjVmOWZlN2FmODUSGDY1YWU2OTg1NmJjYjA5ZmNjYWIzYTlkMxIYNjBkOTc3N2QzNDc1MGFiNDI3MTk3NzBkEhg1NzBmNmMwZWY4MmY0NTc3NjZjOGEzNjESGDVlODQ2Y2EzNmZlYTlhMDA4MzA5MTkyMBIYNTdmMGQ3NzQzMzU4OTkxYzNmMzUyMDE3Ehg1ZmYzMjU5M2Y0YzcyZjk1Y2Q2NDI4ZjASGDU3NTZjMGM5ZTAwNTRmMDY3OTAxOGViNhIYNWQxYzZkMDU4NDczYWE1MDAxYWI4ZDg3Ehg1NzBmYjcyZWU3YjY5NjE4NGNkZmJmNGISGDYwNDllNGU0OGI5ZDBiZGIzY2M4NzEyZRIYNjlkNzg0ZjkwOTQ4MzliYjljNjVkYWM1Ehg2OTQzYjM3NGMyNGZiOWRlZmIzMTZjYWMSGDYwMWQxYTIyMWMyMTZkMDNhMjA0YjExMRIYNjk0M2IzNTIwOWJjMGZjYjRmMzJhMGVmEhg2NGZmMDQ4NTY5ZjAzZDY5ZGFiNjc1NTASGDYxNTQxZjgzNjZhMmRhOTlhNjQ4YzkxNhIYNjFhNzNmNTQ5OGI2MmY2MjhkMTc4ODRjEhg1YzRlZDk5YjA0ZjJhNDAwMGM3MTY1ZGMSGDU3ZTk0MWZkYWZhNDVlMDk1MWI0MWY3OBIYNTcxZGUxMGY1NWMyMDUzMWIyODRiNmNkEhg2NWFlNjkxYzI0NDkxMDExNTQzZmQwMTQSGDYzODg4NmU3YmUzYTRmNTdlYWI3NjE2MxIYNjAxYWJlYjEwMGE0ODI3MWEyMmJmNzJmEhg1ZDA4ODg3NjllODE3ZDJlNDRiNjUzOTkSGDYwMTNjMDZlYWE0ZDc2ZTc2OGI2ZTY4NBIYNjg1YmQ1NzE1NWVlZjhmYTBhNTdjZTBkEhg1NzBmNjgxODE2ZmYyOTZmY2IzOTAzMjASGDYxNGNhMTgyOTRlNThjZWJjNzZiMzIzNhIYNjk0M2IzYWNmN2I4NTAxYzk5YzQ2NDkxEhg1OGQ4ZjcxMGZhYTc3YTM1NjQ3MzY4NzISGDU3MGY2NDkxZjgyZjQ1Nzc2NTU1ZDU3NxIYNTcxMGE0YmJmODJmNDUxYzU0ODQ5MDc4Ehg1ZWFmY2Q3MWE0MTk3YTAyMTZhYWE2OGUSGDY3NjNjYjhmNTk3MDdjMTVhNGRhZjlhMhIYNTg5YWY4YzM0OTlhZDIxY2VmNGJkMzI4Ehg2MGFmM2JlZDFiZDU3NTA5ZWIxM2QxNzkSGDYxZTEzYzI2NDBkNjk2NWMzMmQ3NjYxZBIYNjA5NGZhY2I4ZjVkOTRiMGE3NjEzOTU1Ehg2MzBiNjVmNzUzMDZhNDI3ZDRjZTMyOGQSGDU3MGZhMWI1ZjgyZjQ1MTdlODRhZDEzMxIYNTcwZjllZGExNmZmMjkxMDA5M2MwYmFkEhg2MThiZDhlMWE2YWQ0Zjg5YmFlMjc2ODESGDYwZDFkODlhNDJkY2E1ZDI5MDFhNDQwMxIYNjM4NGFhNGYwOWNkMTQzNjllNGViODRlEhg1OTgzMjM0YjEwYTEwOTMyNTJlMmUwYzMSGDYzMWFmYWIyNTA1MmEzNTE2Y2Q4ZTU1NRIYNjAwNTU2ZjNhOWM1M2U2MTUyYWI4NzVkEhg2MzIzMDFmYzA2OGE0ODMzZDdiNGNlMWQSGDYwZGFlYjJlZTJjOWFiZjU0ZWM0NmUzNRIYNjNkNzhkNjVlYTE5NTVjOGIxZjI0ZjFhEhg1ZDQxNmQ2M2Q0MjYxYWI0YjYyODM2OTESGDY4OTIxOTFiNGQ5NmZlMTZhMmI4ZmI3ZRIYNjJiMmVhNzE5OGQ1OWYyYmUzMzYzMzZhEhg2MzlhZWQ0MzkzZjBmOWMwZWU2YTQ2ZmISGDVjZTVhMDgzZjNiMmNlYmFhNWNhZjgxORIYNjA5NGZjZWMzZjg5NTc5Y2JjM2JkZjE2Ehg2MDQ5ZTUxMWNkMzkwYTBkZGU3M2I3YWQSGDYwZDFkY2M5N2EzNTQwNGEyNzAzMjdkYxIYNjFjNWY4MjcxZWVmZTU5MWMxYzQyMDBmEhg1ZjIyZTgzZjQ5ODQwZTZlODMyNjkyNTgSGDYyM2RkMjI4MmRiMzgxYzU5ZDAwNmNmYhIYNjA1YjAwYTUxZTU5ZWNjYjk0YTU5MmYxEhg2MDk4ZTAyYmNhOGM2NzU4OWUwZmFmZDgSGDVkYTAxMjc2NGNiM2VhYjc4ZWE4MDVjNBIYNjI0YWVjNzRjYTUyZjllNzdiZDY2ZTlhEhg2MWVlNjVkZTYyMGMyMTQwM2EyMWRmODUSGDYwYTdkOGY4NzJmNWEwNGY4Yjk4ZTEzNhIYNjBkZGI4MGViNThmODk4ZGM1OGFkZDg0Ehg1Y2RjMzk0YTQ5ZTZkMzQ2YzQwMWFmOGYSGDVjYmVmODgxZGIyMTM5MDAwZDRlNjJjZRIYNjAxZDFhZjBlMTFkMzlkNDczMDQ0ZWUwEhg2MDNmNGI1NjEwZWQwNzA3OTY4MzhlMWQSGDU3MGZhMjRkMzFiOTRjMGJiZjdmNzk3OBIYNjBkMWRjYjQ1NzFlZTVlMTM3ZDg1OTQzEhg2MzAwOTY4MWZkMDJhYjE3YTI0Nzg0YTUSGDY5NDNiM2I4YTUwOTM1NjI0ZWE4ODc4NBIYNjVhZTY4NzhlNTUzNTJkZGFjNDc5YTcyEhg2M2I2Y2Y2OGVkNmRjMTMxOTQxMTljY2YSGDYwYWYzYzQ1ZTNiNzE1MTZjZTYwN2RkZRIYNjQzM2NhM2QyOTI0NzAyOWY1ZDUyZDZjEhg1YzA3YjVmZDdkNjBkZTAwMGJhMWU3MmESGDVjYTM1NTljNGE1MDRjMDAwZGMwYmFlYxIYNTllOWJjYjNjZTQ3MGQwMDBkODkxMmNkEhg1ZDEwOGU5MzMxNzI5MmFlNGU5NDc2MDUSGDVkZDkyMDM4NTQzYzQ1NzhkNTMyZjQxMxIYNjA4OTgxYTE3NTQ1ZGVmYTRlOWFhOGY2Ehg2MDZkNmYyY2I0NWE5MjJkNWMwMWM3YmQKjgEKDHByb2R1Y3RfbGluZRILZWxlY3Ryb25pY3MSE2dlbmVyYWxfbWVyY2hhbmRpc2USCHBoYXJtYWN5Egdncm9jZXJ5EhFoZWFsdGhfYW5kX2JlYXV0eRIKcmVzdGF1cmFudBIHYWxjb2hvbBITdG95c19nYW1lc19hbmRfa2lkcxIMaG9tZV9hbmRfZGl5ChsKDGlzX3dvbHRfcGx1cxIEVHJ1ZRIFRmFsc2U=",
+  "sections": [
+    {
+      "content_id": "",
+      "hide_delivery_info": false,
+      "items": [
+        {
+          "link": {
+            "menu_item_details": {
+              "action_link": {
+                "target": "",
+                "target_sort": "delivers-to",
+                "target_title": "",
+                "title": "",
+                "type": "menu-item"
+              },
+              "city_slug": "tbilisi",
+              "country": "GEO",
+              "currency": "GEL",
+              "delivery_highlight": false,
+              "delivery_icon": "bike",
+              "delivery_price_highlight": false,
+              "delivery_within_time_range": false,
+              "description": "Cheese, sauce, pepperoni, red pepper",
+              "estimate_box": {
+                "subtitle": "min",
+                "template": "estimate",
+                "title": "40-50"
+              },
+              "estimate_range": "40-50",
+              "id": "45d184adcc831ba6e90196d5",
+              "image": {
+                "blurhash": "",
+                "url": "https://imageproxy.wolt.com/assets/6ace3e12332d64159c35a5c8"
+              },
+              "is_sold_by_weight": false,
+              "name": "Pepperoni 33 cm",
+              "price": 2400,
+              "price_excludes_deposit": false,
+              "price_type": "simple-price",
+              "product_line": "restaurant",
+              "show_wolt_plus": false,
+              "show_zero_markup": false,
+              "tags": [],
+              "unit_size": 0,
+              "venue_id": "60a788912ada057d694b0518",
+              "venue_image": {
+                "blurhash": "j4KURN00bLV2QOdbTqTrdacPfdJk",
+                "url": "https://imageproxy.wolt.com/assets/673213dd308c8149ae82ee39"
+              },
+              "venue_name": "Pizza Di Roma Avlabari",
+              "venue_rating": {
+                "rating": 4,
+                "score": 9.2,
+                "volume": 1058
+              },
+              "venue_slug": "pizza-di-roma-isani"
+            },
+            "target_sort": "default",
+            "target_title": "",
+            "type": "menu-item-details"
+          },
+          "menu_item": {
+            "country": "GEO",
+            "currency": "GEL",
+            "delivery_highlight": false,
+            "delivery_icon": "bike",
+            "delivery_price_highlight": false,
+            "delivery_within_time_range": false,
+            "estimate_range": "40-50",
+            "id": "45d184adcc831ba6e90196d5",
+            "image": {
+              "blurhash": "",
+              "url": "https://imageproxy.wolt.com/assets/6ace3e12332d64159c35a5c8"
+            },
+            "is_available": true,
+            "name": "Pepperoni 33 cm",
+            "price": 2400,
+            "price_type": "simple-price",
+            "product_hierarchy_level_id": "d68ac279-e50c-4752-88fe-3eadec4093d7",
+            "show_wolt_plus": false,
+            "tags": [],
+            "venue_id": "60a788912ada057d694b0518",
+            "venue_name": "Pizza Di Roma Avlabari",
+            "venue_rating": {
+              "rating": 4,
+              "score": 9.2,
+              "volume": 1058
+            }
+          },
+          "template": "search-menu-item",
+          "title": "Pepperoni 33 cm",
+          "track_id": "search_menu_item-45d184adcc831ba6e90196d5"
+        },
+        {
+          "link": {
+            "menu_item_details": {
+              "action_link": {
+                "target": "",
+                "target_sort": "delivers-to",
+                "target_title": "",
+                "title": "",
+                "type": "menu-item"
+              },
+              "city_slug": "tbilisi",
+              "country": "GEO",
+              "currency": "GEL",
+              "delivery_highlight": false,
+              "delivery_icon": "bike",
+              "delivery_price_highlight": false,
+              "delivery_within_time_range": false,
+              "description": "",
+              "estimate_box": {
+                "subtitle": "min",
+                "template": "estimate",
+                "title": "35-45"
+              },
+              "estimate_range": "35-45",
+              "id": "2552694d406f67ad9de2a6c6",
+              "image": {
+                "blurhash": "",
+                "url": "https://imageproxy.wolt.com/assets/6ad887d7a0d06362449d37e7"
+              },
+              "is_sold_by_weight": false,
+              "name": "1+1 medium pizzas",
+              "original_price": 6380,
+              "price": 3190,
+              "price_excludes_deposit": false,
+              "price_type": "simple-price",
+              "product_line": "restaurant",
+              "show_wolt_plus": false,
+              "show_zero_markup": false,
+              "tags": [],
+              "unit_size": 0,
+              "venue_id": "6272478694f326b4313941cc",
+              "venue_image": {
+                "blurhash": "j3vAEJTr0kTc0B4AWQ;I0Bd5V5Nr",
+                "url": "https://imageproxy.wolt.com/mes-image/442e4bd7-a3ba-4061-9d98-b5ef6a7fb7f2/4841264e-cbf3-4c50-99e2-60baa7cb398e"
+              },
+              "venue_name": "Domino's Pizza Isani",
+              "venue_rating": {
+                "rating": 3,
+                "score": 8.8,
+                "volume": 1570
+              },
+              "venue_slug": "dominos-pizza-isani"
+            },
+            "target_sort": "default",
+            "target_title": "",
+            "type": "menu-item-details"
+          },
+          "menu_item": {
+            "country": "GEO",
+            "currency": "GEL",
+            "delivery_highlight": false,
+            "delivery_icon": "bike",
+            "delivery_price_highlight": false,
+            "delivery_within_time_range": false,
+            "estimate_range": "35-45",
+            "id": "2552694d406f67ad9de2a6c6",
+            "image": {
+              "blurhash": "",
+              "url": "https://imageproxy.wolt.com/assets/6ad887d7a0d06362449d37e7"
+            },
+            "is_available": true,
+            "name": "1+1 medium pizzas",
+            "original_price": 6380,
+            "price": 3190,
+            "price_type": "simple-price",
+            "product_hierarchy_level_id": "09f7152a-9587-4b5e-8235-e484567c7252",
+            "show_wolt_plus": false,
+            "tags": [],
+            "venue_id": "6272478694f326b4313941cc",
+            "venue_name": "Domino's Pizza Isani",
+            "venue_rating": {
+              "rating": 3,
+              "score": 8.8,
+              "volume": 1570
+            }
+          },
+          "template": "search-menu-item",
+          "title": "1+1 medium pizzas",
+          "track_id": "search_menu_item-2552694d406f67ad9de2a6c6"
+        },
+        {
+          "link": {
+            "menu_item_details": {
+              "action_link": {
+                "target": "",
+                "target_sort": "delivers-to",
+                "target_title": "",
+                "title": "",
+                "type": "menu-item"
+              },
+              "city_slug": "tbilisi",
+              "country": "GEO",
+              "currency": "GEL",
+              "delivery_highlight": false,
+              "delivery_icon": "bike",
+              "delivery_price_highlight": false,
+              "delivery_within_time_range": false,
+              "description": "Tomato signature sauce marinara, mozzarella cheese, pepperoni",
+              "estimate_box": {
+                "subtitle": "min",
+                "template": "estimate",
+                "title": "35-45"
+              },
+              "estimate_range": "35-45",
+              "id": "69808719b696ad78fa8cfba6",
+              "image": {
+                "blurhash": "UJEmm:$O0%Nv,ZsC$Nay10W=}XWC$jW;n%S3",
+                "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/676d370cc0ab14e57b2acc48/fad6fae8-e184-11f1-b2cb-fee61f25135e_68.jpg_c_20261116101416"
+              },
+              "is_sold_by_weight": false,
+              "name": "33cm Pepperoni Lovers",
+              "price": 4590,
+              "price_excludes_deposit": false,
+              "price_type": "simple-price",
+              "product_line": "restaurant",
+              "show_wolt_plus": false,
+              "show_zero_markup": false,
+              "tags": [],
+              "unit_size": 0,
+              "venue_id": "697890eb3086eec03ebf2271",
+              "venue_image": {
+                "blurhash": "j6DSFiGH95Pb;IXsHtXJ7tjcX4n9",
+                "url": "https://imageproxy.wolt.com/assets/697891a92005da84f843f470"
+              },
+              "venue_name": "Pizza Hut Isani",
+              "venue_rating": {
+                "rating": 3,
+                "score": 8.8,
+                "volume": 761
+              },
+              "venue_slug": "pizza-hut-isani1"
+            },
+            "target_sort": "default",
+            "target_title": "",
+            "type": "menu-item-details"
+          },
+          "menu_item": {
+            "country": "GEO",
+            "currency": "GEL",
+            "delivery_highlight": false,
+            "delivery_icon": "bike",
+            "delivery_price_highlight": false,
+            "delivery_within_time_range": false,
+            "estimate_range": "35-45",
+            "id": "69808719b696ad78fa8cfba6",
+            "image": {
+              "blurhash": "UJEmm:$O0%Nv,ZsC$Nay10W=}XWC$jW;n%S3",
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/676d370cc0ab14e57b2acc48/fad6fae8-e184-11f1-b2cb-fee61f25135e_68.jpg_c_20261116101416"
+            },
+            "is_available": true,
+            "name": "33cm Pepperoni Lovers",
+            "price": 4590,
+            "price_type": "simple-price",
+            "product_hierarchy_level_id": "d68ac279-e50c-4752-88fe-3eadec4093d7",
+            "show_wolt_plus": false,
+            "tags": [],
+            "venue_id": "697890eb3086eec03ebf2271",
+            "venue_name": "Pizza Hut Isani",
+            "venue_rating": {
+              "rating": 3,
+              "score": 8.8,
+              "volume": 761
+            }
+          },
+          "template": "search-menu-item",
+          "title": "33cm Pepperoni Lovers",
+          "track_id": "search_menu_item-69808719b696ad78fa8cfba6"
+        },
+        {
+          "link": {
+            "menu_item_details": {
+              "action_link": {
+                "target": "",
+                "target_sort": "delivers-to",
+                "target_title": "",
+                "title": "",
+                "type": "menu-item"
+              },
+              "city_slug": "tbilisi",
+              "country": "GEO",
+              "currency": "GEL",
+              "delivery_highlight": false,
+              "delivery_icon": "bike",
+              "delivery_price_highlight": false,
+              "delivery_within_time_range": false,
+              "description": "Dough, tomato sauce, mozzarella cheese, pepperoni sausage, spices",
+              "estimate_box": {
+                "subtitle": "min",
+                "template": "estimate",
+                "title": "45-55"
+              },
+              "estimate_range": "45-55",
+              "id": "1901c79be123c7adfe342c14",
+              "image": {
+                "blurhash": "UbR1tMxs%yj[%0ayR+fk?@R*VZj@J9oLs-oK",
+                "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/66ffe7d65d3e33be450f6dff/1e4dbdc2-e1ad-11f1-b2c5-569788e93957_pitsa_peperoni_40sm.jpeg_v_202611161301"
+              },
+              "is_sold_by_weight": false,
+              "name": "Pizza Pepperoni  — 40 cm",
+              "price": 3790,
+              "price_excludes_deposit": false,
+              "price_type": "simple-price",
+              "product_line": "restaurant",
+              "show_wolt_plus": false,
+              "show_zero_markup": false,
+              "tags": [],
+              "unit_size": 0,
+              "venue_id": "62a1f4268a495c8c522024da",
+              "venue_image": {
+                "blurhash": "j7IUNx;:8XXsSWcQpVSX0AhqLch5",
+                "url": "https://imageproxy.wolt.com/mes-image/50cb7a5d-dfbf-4661-b323-bedcc2d49c91/1680e3ba-ebd7-4223-8c6a-78e9f594a34a"
+              },
+              "venue_name": "PIZZA24.GE Chugureti",
+              "venue_rating": {
+                "rating": 3,
+                "score": 8.4,
+                "volume": 169
+              },
+              "venue_slug": "pizza-24ge-chugureti"
+            },
+            "target_sort": "default",
+            "target_title": "",
+            "type": "menu-item-details"
+          },
+          "menu_item": {
+            "country": "GEO",
+            "currency": "GEL",
+            "delivery_highlight": false,
+            "delivery_icon": "bike",
+            "delivery_price_highlight": false,
+            "delivery_within_time_range": false,
+            "estimate_range": "45-55",
+            "id": "1901c79be123c7adfe342c14",
+            "image": {
+              "blurhash": "UbR1tMxs%yj[%0ayR+fk?@R*VZj@J9oLs-oK",
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/66ffe7d65d3e33be450f6dff/1e4dbdc2-e1ad-11f1-b2c5-569788e93957_pitsa_peperoni_40sm.jpeg_v_202611161301"
+            },
+            "is_available": true,
+            "name": "Pizza Pepperoni  — 40 cm",
+            "price": 3790,
+            "price_type": "simple-price",
+            "product_hierarchy_level_id": "d68ac279-e50c-4752-88fe-3eadec4093d7",
+            "show_wolt_plus": false,
+            "tags": [],
+            "venue_id": "62a1f4268a495c8c522024da",
+            "venue_name": "PIZZA24.GE Chugureti",
+            "venue_rating": {
+              "rating": 3,
+              "score": 8.4,
+              "volume": 169
+            }
+          },
+          "template": "search-menu-item",
+          "title": "Pizza Pepperoni  — 40 cm",
+          "track_id": "search_menu_item-1901c79be123c7adfe342c14"
+        },
+        {
+          "link": {
+            "menu_item_details": {
+              "action_link": {
+                "target": "",
+                "target_sort": "delivers-to",
+                "target_title": "",
+                "title": "",
+                "type": "menu-item"
+              },
+              "city_slug": "tbilisi",
+              "country": "GEO",
+              "currency": "GEL",
+              "delivery_highlight": false,
+              "delivery_icon": "bike",
+              "delivery_price_highlight": false,
+              "delivery_within_time_range": false,
+              "description": "Dough, pepperoni, tomato sauce and mozzarella cheese",
+              "estimate_box": {
+                "subtitle": "min",
+                "template": "estimate",
+                "title": "45-55"
+              },
+              "estimate_range": "45-55",
+              "id": "65560a6e62d48a588719ec70",
+              "image": {
+                "blurhash": "",
+                "url": "https://imageproxy.wolt.com/assets/698ed82142acc16e0b49b8dc"
+              },
+              "is_sold_by_weight": false,
+              "name": "Pepperoni (40 cm, 8 pieces)",
+              "price": 3100,
+              "price_excludes_deposit": false,
+              "price_type": "simple-price",
+              "product_line": "restaurant",
+              "show_wolt_plus": false,
+              "show_zero_markup": false,
+              "tags": [],
+              "unit_size": 0,
+              "venue_id": "65548c316eda80e7eadb4615",
+              "venue_image": {
+                "blurhash": "joMaOzh4;;llPcKXGGpCPchlhlKG",
+                "url": "https://imageproxy.wolt.com/assets/6939a49dc630f8b0f6f3a6f2"
+              },
+              "venue_name": "Monti Pizza",
+              "venue_rating": {
+                "rating": 4,
+                "score": 9.6,
+                "volume": 599
+              },
+              "venue_slug": "monti-pizza"
+            },
+            "target_sort": "default",
+            "target_title": "",
+            "type": "menu-item-details"
+          },
+          "menu_item": {
+            "country": "GEO",
+            "currency": "GEL",
+            "delivery_highlight": false,
+            "delivery_icon": "bike",
+            "delivery_price_highlight": false,
+            "delivery_within_time_range": false,
+            "estimate_range": "45-55",
+            "id": "65560a6e62d48a588719ec70",
+            "image": {
+              "blurhash": "",
+              "url": "https://imageproxy.wolt.com/assets/698ed82142acc16e0b49b8dc"
+            },
+            "is_available": true,
+            "name": "Pepperoni (40 cm, 8 pieces)",
+            "price": 3100,
+            "price_type": "simple-price",
+            "product_hierarchy_level_id": "d68ac279-e50c-4752-88fe-3eadec4093d7",
+            "show_wolt_plus": false,
+            "tags": [],
+            "venue_id": "65548c316eda80e7eadb4615",
+            "venue_name": "Monti Pizza",
+            "venue_rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 599
+            }
+          },
+          "template": "search-menu-item",
+          "title": "Pepperoni (40 cm, 8 pieces)",
+          "track_id": "search_menu_item-65560a6e62d48a588719ec70"
+        },
+        {
+          "link": {
+            "menu_item_details": {
+              "action_link": {
+                "target": "",
+                "target_sort": "delivers-to",
+                "target_title": "",
+                "title": "",
+                "type": "menu-item"
+              },
+              "city_slug": "tbilisi",
+              "country": "GEO",
+              "currency": "GEL",
+              "delivery_highlight": false,
+              "delivery_icon": "bike",
+              "delivery_price_highlight": false,
+              "delivery_within_time_range": false,
+              "description": "ქვის ღუმელში გამომცხვარი თხელი ცომი, პომიდვრის სოუსი და არომატული ორეგანო, დაფარული მდნარი მოცარელათი და პიკანტური იტალიური პეპერონით. ყველით სავსე ნაპირებით. იდეალური არჩევანი ხორცის მოყვარულებისთვის.",
+              "estimate_box": {
+                "subtitle": "min",
+                "template": "estimate",
+                "title": "35-45"
+              },
+              "estimate_range": "35-45",
+              "id": "ee4e35400fa8aa161a5f5fe2",
+              "image": {
+                "blurhash": "",
+                "url": "https://imageproxy.wolt.com/assets/68e103e834d17aed323f7be1"
+              },
+              "is_sold_by_weight": false,
+              "name": "პიცა პეპერონი 33სმ(8 ნაჭერი)",
+              "price": 3400,
+              "price_excludes_deposit": false,
+              "price_type": "simple-price",
+              "product_line": "restaurant",
+              "show_wolt_plus": false,
+              "show_zero_markup": false,
+              "tags": [],
+              "unit_size": 0,
+              "venue_id": "68d527239a25339685904d3b",
+              "venue_image": {
+                "blurhash": "j5DmFg;sd4;s;HKBhkJH8QKSmpdl",
+                "url": "https://imageproxy.wolt.com/assets/68e4d0f567da5fad86950a77"
+              },
+              "venue_name": "Forno Pizza",
+              "venue_rating": {
+                "rating": 4,
+                "score": 9.0,
+                "volume": 32
+              },
+              "venue_slug": "forn0-p1zza"
+            },
+            "target_sort": "default",
+            "target_title": "",
+            "type": "menu-item-details"
+          },
+          "menu_item": {
+            "country": "GEO",
+            "currency": "GEL",
+            "delivery_highlight": false,
+            "delivery_icon": "bike",
+            "delivery_price_highlight": false,
+            "delivery_within_time_range": false,
+            "estimate_range": "35-45",
+            "id": "ee4e35400fa8aa161a5f5fe2",
+            "image": {
+              "blurhash": "",
+              "url": "https://imageproxy.wolt.com/assets/68e103e834d17aed323f7be1"
+            },
+            "is_available": true,
+            "name": "პიცა პეპერონი 33სმ(8 ნაჭერი)",
+            "price": 3400,
+            "price_type": "simple-price",
+            "product_hierarchy_level_id": "d68ac279-e50c-4752-88fe-3eadec4093d7",
+            "show_wolt_plus": false,
+            "tags": [],
+            "venue_id": "68d527239a25339685904d3b",
+            "venue_name": "Forno Pizza",
+            "venue_rating": {
+              "rating": 4,
+              "score": 9.0,
+              "volume": 32
+            }
+          },
+          "template": "search-menu-item",
+          "title": "პიცა პეპერონი 33სმ(8 ნაჭერი)",
+          "track_id": "search_menu_item-ee4e35400fa8aa161a5f5fe2"
+        },
+        {
+          "link": {
+            "menu_item_details": {
+              "action_link": {
+                "target": "",
+                "target_sort": "delivers-to",
+                "target_title": "",
+                "title": "",
+                "type": "menu-item"
+              },
+              "city_slug": "tbilisi",
+              "country": "GEO",
+              "currency": "GEL",
+              "delivery_highlight": false,
+              "delivery_icon": "bike",
+              "delivery_price_highlight": false,
+              "delivery_within_time_range": false,
+              "description": "3x Large Pizza + 1 for FREE🎁",
+              "estimate_box": {
+                "subtitle": "min",
+                "template": "estimate",
+                "title": "40-50"
+              },
+              "estimate_range": "40-50",
+              "id": "6384c7f49bc06f206feb74a8",
+              "image": {
+                "blurhash": "jdGTNB;r4QeYTtOFpWqX4QlDKCiq",
+                "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f5b7ec3526c89d2b37134e6/475ad996-f43a-11ea-b676-f6c7180cb417__________.jpeg"
+              },
+              "is_sold_by_weight": false,
+              "name": "3x Large Pizza + 1 for FREE🎁",
+              "price": 0,
+              "price_excludes_deposit": false,
+              "price_type": "simple-price",
+              "product_line": "restaurant",
+              "show_wolt_plus": false,
+              "show_zero_markup": false,
+              "tags": [],
+              "unit_size": 0,
+              "venue_id": "6364f142b89483b594d468c0",
+              "venue_image": {
+                "blurhash": "j4PoVsj:T:kzcRRR8RKX42OX56p5",
+                "url": "https://imageproxy.wolt.com/assets/67320793b5de01710c509ace"
+              },
+              "venue_name": "Pizza Paragone Isani",
+              "venue_rating": {
+                "rating": 4,
+                "score": 9.4,
+                "volume": 854
+              },
+              "venue_slug": "pizza-paragone-isani"
+            },
+            "target_sort": "default",
+            "target_title": "",
+            "type": "menu-item-details"
+          },
+          "menu_item": {
+            "country": "GEO",
+            "currency": "GEL",
+            "delivery_highlight": false,
+            "delivery_icon": "bike",
+            "delivery_price_highlight": false,
+            "delivery_within_time_range": false,
+            "estimate_range": "40-50",
+            "id": "6384c7f49bc06f206feb74a8",
+            "image": {
+              "blurhash": "jdGTNB;r4QeYTtOFpWqX4QlDKCiq",
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f5b7ec3526c89d2b37134e6/475ad996-f43a-11ea-b676-f6c7180cb417__________.jpeg"
+            },
+            "is_available": true,
+            "name": "3x Large Pizza + 1 for FREE🎁",
+            "price": 0,
+            "price_type": "simple-price",
+            "product_hierarchy_level_id": "09f7152a-9587-4b5e-8235-e484567c7252",
+            "show_wolt_plus": false,
+            "tags": [],
+            "venue_id": "6364f142b89483b594d468c0",
+            "venue_name": "Pizza Paragone Isani",
+            "venue_rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 854
+            }
+          },
+          "template": "search-menu-item",
+          "title": "3x Large Pizza + 1 for FREE🎁",
+          "track_id": "search_menu_item-6384c7f49bc06f206feb74a8"
+        },
+        {
+          "link": {
+            "menu_item_details": {
+              "action_link": {
+                "target": "",
+                "target_sort": "delivers-to",
+                "target_title": "",
+                "title": "",
+                "type": "menu-item"
+              },
+              "city_slug": "tbilisi",
+              "country": "GEO",
+              "currency": "GEL",
+              "delivery_highlight": false,
+              "delivery_icon": "bike",
+              "delivery_price_highlight": false,
+              "delivery_within_time_range": false,
+              "description": "პიცა პეპერონით, პომიდვრის სოუსით და ყველით",
+              "estimate_box": {
+                "subtitle": "min",
+                "template": "estimate",
+                "title": "30-40"
+              },
+              "estimate_range": "30-40",
+              "id": "3b5dcf0e9a55cfb24f2c11f4",
+              "image": {
+                "blurhash": "",
+                "url": "https://imageproxy.wolt.com/assets/6af030c0c5ed2f8a7bbedffa"
+              },
+              "is_sold_by_weight": false,
+              "name": "Ra Pizza - Pepperoni (Small)",
+              "price": 2400,
+              "price_excludes_deposit": false,
+              "price_type": "simple-price",
+              "product_line": "restaurant",
+              "show_wolt_plus": false,
+              "show_zero_markup": false,
+              "tags": [],
+              "unit_size": 0,
+              "venue_id": "6aec844a949efd3ab96a45af",
+              "venue_image": {
+                "blurhash": "j2L7FgTV8y0A;ecO4hXb1;SI;ill",
+                "url": "https://imageproxy.wolt.com/assets/6af0304ec5ed2f8a7bbedfe9"
+              },
+              "venue_name": "Ra Pizza",
+              "venue_slug": "ra-pizza"
+            },
+            "target_sort": "default",
+            "target_title": "",
+            "type": "menu-item-details"
+          },
+          "menu_item": {
+            "country": "GEO",
+            "currency": "GEL",
+            "delivery_highlight": false,
+            "delivery_icon": "bike",
+            "delivery_price_highlight": false,
+            "delivery_within_time_range": false,
+            "estimate_range": "30-40",
+            "id": "3b5dcf0e9a55cfb24f2c11f4",
+            "image": {
+              "blurhash": "",
+              "url": "https://imageproxy.wolt.com/assets/6af030c0c5ed2f8a7bbedffa"
+            },
+            "is_available": true,
+            "name": "Ra Pizza - Pepperoni (Small)",
+            "price": 2400,
+            "price_type": "simple-price",
+            "product_hierarchy_level_id": "d68ac279-e50c-4752-88fe-3eadec4093d7",
+            "show_wolt_plus": false,
+            "tags": [],
+            "venue_id": "6aec844a949efd3ab96a45af",
+            "venue_name": "Ra Pizza"
+          },
+          "template": "search-menu-item",
+          "title": "Ra Pizza - Pepperoni (Small)",
+          "track_id": "search_menu_item-3b5dcf0e9a55cfb24f2c11f4"
+        },
+        {
+          "link": {
+            "menu_item_details": {
+              "action_link": {
+                "target": "",
+                "target_sort": "delivers-to",
+                "target_title": "",
+                "title": "",
+                "type": "menu-item"
+              },
+              "city_slug": "tbilisi",
+              "country": "GEO",
+              "currency": "GEL",
+              "delivery_highlight": false,
+              "delivery_icon": "bike",
+              "delivery_price_highlight": false,
+              "delivery_within_time_range": false,
+              "description": "Signature pizza dough, mozzarella cheese, pepperoni, special pizza sauce, oregano. Size: 33 cm, 6 pieces",
+              "estimate_box": {
+                "subtitle": "min",
+                "template": "estimate",
+                "title": "35-45"
+              },
+              "estimate_range": "35-45",
+              "id": "7b3f15dddd9e40629d8eb510",
+              "image": {
+                "blurhash": "UCJQ7J~904jb}:xZNJNa0i%1$$oz$%%0S~W=",
+                "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/67bd8fd1539689b8431b5ae9/77432d78-c951-11f1-83d9-b61706c136cd_963.png_c_20261016150440"
+              },
+              "is_sold_by_weight": false,
+              "name": "Peperoni",
+              "price": 2295,
+              "price_excludes_deposit": false,
+              "price_type": "simple-price",
+              "product_line": "restaurant",
+              "show_wolt_plus": false,
+              "show_zero_markup": false,
+              "tags": [],
+              "unit_size": 0,
+              "venue_id": "65d3369db8cec02700ac6d74",
+              "venue_image": {
+                "blurhash": "jhRGWCT;TKFlPKoPkPhkPKllGCuG",
+                "url": "https://imageproxy.wolt.com/assets/6735b903ff8ff021c325f8e0"
+              },
+              "venue_name": "Wendy's Pizza Goradziri",
+              "venue_rating": {
+                "rating": 3,
+                "score": 8.0,
+                "volume": 44
+              },
+              "venue_slug": "wendys-pizza-goradziri"
+            },
+            "target_sort": "default",
+            "target_title": "",
+            "type": "menu-item-details"
+          },
+          "menu_item": {
+            "country": "GEO",
+            "currency": "GEL",
+            "delivery_highlight": false,
+            "delivery_icon": "bike",
+            "delivery_price_highlight": false,
+            "delivery_within_time_range": false,
+            "estimate_range": "35-45",
+            "id": "7b3f15dddd9e40629d8eb510",
+            "image": {
+              "blurhash": "UCJQ7J~904jb}:xZNJNa0i%1$$oz$%%0S~W=",
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/67bd8fd1539689b8431b5ae9/77432d78-c951-11f1-83d9-b61706c136cd_963.png_c_20261016150440"
+            },
+            "is_available": true,
+            "name": "Peperoni",
+            "price": 2295,
+            "price_type": "simple-price",
+            "product_hierarchy_level_id": "d68ac279-e50c-4752-88fe-3eadec4093d7",
+            "show_wolt_plus": false,
+            "tags": [],
+            "venue_id": "65d3369db8cec02700ac6d74",
+            "venue_name": "Wendy's Pizza Goradziri",
+            "venue_rating": {
+              "rating": 3,
+              "score": 8.0,
+              "volume": 44
+            }
+          },
+          "template": "search-menu-item",
+          "title": "Peperoni",
+          "track_id": "search_menu_item-7b3f15dddd9e40629d8eb510"
+        },
+        {
+          "link": {
+            "menu_item_details": {
+              "action_link": {
+                "target": "",
+                "target_sort": "delivers-to",
+                "target_title": "",
+                "title": "",
+                "type": "menu-item"
+              },
+              "city_slug": "tbilisi",
+              "country": "GEO",
+              "currency": "GEL",
+              "delivery_highlight": false,
+              "delivery_icon": "bike",
+              "delivery_price_highlight": false,
+              "delivery_within_time_range": false,
+              "description": "Cheese, sauce, pepperoni, red pepper",
+              "estimate_box": {
+                "subtitle": "min",
+                "template": "estimate",
+                "title": "40-50"
+              },
+              "estimate_range": "40-50",
+              "id": "328828b8c2e8b9b204addead",
+              "image": {
+                "blurhash": "",
+                "url": "https://imageproxy.wolt.com/assets/6ace4724332d64159c35a8c5"
+              },
+              "is_sold_by_weight": false,
+              "name": "Pepperoni 42 cm",
+              "price": 3300,
+              "price_excludes_deposit": false,
+              "price_type": "simple-price",
+              "product_line": "restaurant",
+              "show_wolt_plus": false,
+              "show_zero_markup": false,
+              "tags": [],
+              "unit_size": 0,
+              "venue_id": "60a788912ada057d694b0518",
+              "venue_image": {
+                "blurhash": "j4KURN00bLV2QOdbTqTrdacPfdJk",
+                "url": "https://imageproxy.wolt.com/assets/673213dd308c8149ae82ee39"
+              },
+              "venue_name": "Pizza Di Roma Avlabari",
+              "venue_rating": {
+                "rating": 4,
+                "score": 9.2,
+                "volume": 1058
+              },
+              "venue_slug": "pizza-di-roma-isani"
+            },
+            "target_sort": "default",
+            "target_title": "",
+            "type": "menu-item-details"
+          },
+          "menu_item": {
+            "country": "GEO",
+            "currency": "GEL",
+            "delivery_highlight": false,
+            "delivery_icon": "bike",
+            "delivery_price_highlight": false,
+            "delivery_within_time_range": false,
+            "estimate_range": "40-50",
+            "id": "328828b8c2e8b9b204addead",
+            "image": {
+              "blurhash": "",
+              "url": "https://imageproxy.wolt.com/assets/6ace4724332d64159c35a8c5"
+            },
+            "is_available": true,
+            "name": "Pepperoni 42 cm",
+            "price": 3300,
+            "price_type": "simple-price",
+            "product_hierarchy_level_id": "d68ac279-e50c-4752-88fe-3eadec4093d7",
+            "show_wolt_plus": false,
+            "tags": [],
+            "venue_id": "60a788912ada057d694b0518",
+            "venue_name": "Pizza Di Roma Avlabari",
+            "venue_rating": {
+              "rating": 4,
+              "score": 9.2,
+              "volume": 1058
+            }
+          },
+          "template": "search-menu-item",
+          "title": "Pepperoni 42 cm",
+          "track_id": "search_menu_item-328828b8c2e8b9b204addead"
+        }
+      ],
+      "name": "items",
+      "template": "search-result-list",
+      "title": "Related items"
+    }
+  ],
+  "show_large_title": false,
+  "show_map": false,
+  "sorting_and_filtering_v2": {
+    "sections": [
+      {
+        "role": "filtering",
+        "slug": "product_line",
+        "type": "single_select",
+        "values": [
+          {
+            "selected": true,
+            "slug": "all",
+            "title": "All results"
+          },
+          {
+            "selected": false,
+            "slug": "restaurant",
+            "title": "Restaurant"
+          },
+          {
+            "selected": false,
+            "slug": "grocery",
+            "title": "Grocery"
+          },
+          {
+            "selected": false,
+            "slug": "pharmacy",
+            "title": "Pharmacy"
+          },
+          {
+            "selected": false,
+            "slug": "alcohol",
+            "title": "Alcohol"
+          },
+          {
+            "selected": false,
+            "slug": "health_and_beauty",
+            "title": "Health & beauty"
+          },
+          {
+            "selected": false,
+            "slug": "electronics",
+            "title": "Electronics"
+          },
+          {
+            "selected": false,
+            "slug": "toys_games_and_kids",
+            "title": "Toys, games & kids"
+          },
+          {
+            "selected": false,
+            "slug": "home_and_diy",
+            "title": "Home & DIY"
+          },
+          {
+            "selected": false,
+            "slug": "general_merchandise",
+            "title": "General merchandise"
+          }
+        ]
+      },
+      {
+        "role": "sorting",
+        "slug": "sort_by",
+        "title": "Sort by",
+        "type": "single_select",
+        "values": [
+          {
+            "selected": true,
+            "slug": "recommended",
+            "title": "Recommended"
+          },
+          {
+            "selected": false,
+            "slug": "distance",
+            "title": "Distance"
+          },
+          {
+            "selected": false,
+            "slug": "rating",
+            "title": "Rating"
+          },
+          {
+            "selected": false,
+            "slug": "delivery_fee",
+            "title": "Delivery price"
+          },
+          {
+            "selected": false,
+            "slug": "delivery_estimate",
+            "title": "Delivery time"
+          }
+        ]
+      },
+      {
+        "role": "filtering",
+        "slug": "delivers_now",
+        "type": "toggle",
+        "values": [
+          {
+            "selected": false,
+            "slug": "delivers_now_toggle",
+            "title": "Delivers to you now"
+          }
+        ]
+      }
+    ]
+  },
+  "track_id": "discovery:search:split-view"
+}

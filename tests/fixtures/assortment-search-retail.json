@@ -1,0 +1,1061 @@
+{
+  "selected_language": "en",
+  "categories": [
+    {
+      "id": "24a79ad7c3d30dad2c2571db",
+      "item_ids": [
+        "5e2b9ee762c3b345d01e23d3",
+        "e5f7005b090cb6bdd5f4695e",
+        "e6d255c88f7821077e55d0fc",
+        "a0c1964c2520204aed528fae",
+        "47a4573138084f3663463b15",
+        "be5621a57e7ffe81ef3c1151",
+        "74b50b19ef8176f320d27c4f",
+        "c85427bf3cb9586477fc7880",
+        "e19936d902c254848ccca067",
+        "c7c8a04f64fa9545911f615d",
+        "f04c3b3f9291fe86d3fc44be",
+        "767350e93b6befa106beab14",
+        "79c888e43018fff0be1854f0",
+        "10d922c03baa467db0a740d1",
+        "d7d2d8f5c18b363797aac710",
+        "9ea7641028da728734fda912",
+        "1031bb435d7a7d9bf5b3f230",
+        "18b03249fe21ebed4871fc2c",
+        "af1a795cdbb73f17242cb534"
+      ]
+    },
+    {
+      "id": "17ad3fa79de45370058ba9e6",
+      "item_ids": [
+        "1adea4da4e3abe63f81489ea"
+      ]
+    },
+    {
+      "id": "53f80e393be9303ba4ced8e2",
+      "item_ids": [
+        "5c423e8e518d5e79777716af",
+        "ba3d83abba2ac09cb96cde37",
+        "06675aad5a5aa079274ceb6d",
+        "1c2c0c6576a475b8f0009065",
+        "e4abc575679f724497b08fb6",
+        "32f8611195b8a12cc23442a4",
+        "19075c53171da288f7268138",
+        "f154da4ed53915b70dbebaf3",
+        "dd311d25dd8ba01c64f14a0c",
+        "395867df88c28d17ad68f3e2"
+      ]
+    },
+    {
+      "id": "aa3955341cbbb9b5cfbba912",
+      "item_ids": [
+        "82f868a808d62655f7e0f5b6",
+        "89a60f0bb247e040425d2640",
+        "05a69b31ab2a73a0302f02d4",
+        "f9c99ba7e2100212e4106850",
+        "0f70831c1d0a3b1e8bea8694"
+      ]
+    },
+    {
+      "id": "b0841106557ca4973dddb52a",
+      "item_ids": [
+        "c5bf9d3a2fbecd4ade126054"
+      ]
+    },
+    {
+      "id": "50e546dd5c6bd06154ba059d",
+      "item_ids": [
+        "571835c7bff816477e0f0893",
+        "7aa080ca1bf151218a54de83",
+        "4a52ec3f3b1cf49e77f0d02d",
+        "86c63b94799327e5bc0b5f49",
+        "13e7910586d05a2ed406f63a",
+        "b1645df8609e65851fb12fd5"
+      ]
+    },
+    {
+      "id": "37d6780fbef921bc5dde0736",
+      "item_ids": [
+        "9ec7b86194d595597466b6eb",
+        "40cba09d74c0abb70ee7a226"
+      ]
+    },
+    {
+      "id": "5b419b2d449ad22c2bf43ad5",
+      "item_ids": [
+        "6e9a698537d8ab84480b428f",
+        "a044a6f209b8e245a1c83f7c",
+        "3897c03766fdcaa78bc09cda"
+      ]
+    },
+    {
+      "id": "c67e150684305935772b49c2",
+      "item_ids": [
+        "a889011aeea726f8aa65e83d",
+        "8914eb70cda4bec053eaf8dd",
+        "dd48b443bc262b1a8ae70a0f",
+        "e63b1a103c0fd0a18ff4b6e8"
+      ]
+    },
+    {
+      "id": "b5230f423b698aabfdd44e37",
+      "item_ids": [
+        "b16fd0ff6e41e3ef13e5e0a2"
+      ]
+    },
+    {
+      "id": "2737d13e7c564614a4c8f081",
+      "item_ids": [
+        "cdb1424d65c49bc9083520fb",
+        "84a6a8564f93fc9d66de84b4",
+        "c09a56e03a6303de97940eb5"
+      ]
+    },
+    {
+      "id": "5de862f41e551cabd570f9cd",
+      "item_ids": [
+        "06be9ca6ab3467322fee55f7"
+      ]
+    },
+    {
+      "id": "536f3d95a121690b98879743",
+      "item_ids": [
+        "daba4e67161ed863c4910535",
+        "b2f110ff353f6a32efb0463b",
+        "3f4bd6c043e0d0db8ae62bd5",
+        "c71c40b8129330dcb0ebf468"
+      ]
+    },
+    {
+      "id": "f495111c983922f71247038d",
+      "item_ids": [
+        "99d3c6df3bc02944c2901efa",
+        "466fb139eaacf72a4bf1fc9b",
+        "76798fa513576aa059e9ad1f",
+        "c500b72efd71d553078a1f01",
+        "e517b2a0be6a26180acb894b",
+        "84e5c3c6fd4c21ce463a600e",
+        "15208048ba1fb193af625fde",
+        "9b58bba8a6721bf7c7ba0d6d"
+      ]
+    },
+    {
+      "id": "ffb47f5f3fd917e08f0aa6f8",
+      "item_ids": [
+        "0a01e384a1149af11ee78bfb",
+        "ba4f809496a4964e29140f04",
+        "58593cd102050b50848eb16a",
+        "9c751ade18be54026c78532e",
+        "52ce3254c21c9ef6727e27b6",
+        "0f0c9dae15a40dd3d3d2a2c8",
+        "fe7a5126ad432efa591248f1",
+        "340e6247a9509e300e041c8f",
+        "d9bbb8abe6d8deffabc65464",
+        "99f963414e6c4d0446142326",
+        "2a2f580d4efbce343f6cf729",
+        "5f11e7ec699b6dd9ed4f57b5",
+        "d2eae1f14af56384ba67a62c",
+        "ce71d589da9d35f0d3577b6e",
+        "642f3b7506711b5e0d9b87b8",
+        "2a9a232fd7ad59564560e060",
+        "0918fcfd1970509f4a390b79",
+        "d6028089586d29119321b9da",
+        "283876aa296a7daa9808432a",
+        "3e4fad4311a72ac2c6128836"
+      ]
+    },
+    {
+      "id": "eaa0425f6776f75ea3912cd3",
+      "item_ids": [
+        "fd6847ebe492da799ccf838e"
+      ]
+    },
+    {
+      "id": "6aec53c3118682fcfd7088b5",
+      "item_ids": [
+        "403026fe2ff901eea358fab9",
+        "bb1b2208d446976011833977",
+        "d2a86cee305a9b4966ed2f61",
+        "66b647eb49d2ec616f3b8373"
+      ]
+    },
+    {
+      "id": "99beb47fa8debeaa0f54e4fb",
+      "item_ids": [
+        "f0d48caba72a408c94c96a32",
+        "569caff7d4193c3cb9d5c844",
+        "3a984325db4bdd1533d0bed8",
+        "57b9cffc42b8d519ff1e0245",
+        "a0f7912f2277e219d57e2cf7",
+        "c3713bb5ee434c6d010dcef3"
+      ]
+    },
+    {
+      "id": "53ccaeacecace6cccb647c37",
+      "item_ids": [
+        "7777f6de0c39035d76fee000"
+      ]
+    },
+    {
+      "id": "1936aee0567cedef4ea17f2a",
+      "item_ids": [
+        "047a87343a824f074490d91c",
+        "be97670128af168bcff44ee7"
+      ]
+    },
+    {
+      "id": "ac1170b89756ab73fa84b5bf",
+      "item_ids": [
+        "0ca30034f38d838c166b3fd2",
+        "3a24a1866d28e25e03755bf4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "5e2b9ee762c3b345d01e23d3",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "4860051003018",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "374a6c8821d047b3d72c2ad219adc7b0",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/69bd367f7d97abbe0eb93ae1",
+          "blurhash": null
+        }
+      ],
+      "videos": [],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Milk /Sante/ (3.2%) 1 l",
+      "options": [],
+      "original_price": null,
+      "original_net_price": null,
+      "item_price_discount_validity_period": null,
+      "price": 595,
+      "net_price": null,
+      "product_hierarchy_level_id": "923f8af5-fb67-4975-87c0-dd17cd599f4a",
+      "product_hierarchy_tags": [
+        "PERISHABLE"
+      ],
+      "purchasable_balance": 20,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null,
+      "vat_category_code": null,
+      "vat_percentage": 18,
+      "vat_percentage_decimal": "18.0",
+      "external_compliance_link": null,
+      "consent_info": {
+        "ask_consent": false,
+        "blur_image": false
+      }
+    },
+    {
+      "id": "e5f7005b090cb6bdd5f4695e",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "4860051001298",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "d41ee67af8dec45f50a23ad7d812a7c9",
+      "description": "Sante milk 2.5% 1 l",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/69860b2d4fe07fe9e1893ccd",
+          "blurhash": null
+        }
+      ],
+      "videos": [],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": 10,
+      "min_quantity_per_purchase": null,
+      "name": "Milk / Sante / (2.5%) 1 l",
+      "options": [],
+      "original_price": null,
+      "original_net_price": null,
+      "item_price_discount_validity_period": null,
+      "price": 560,
+      "net_price": null,
+      "product_hierarchy_level_id": "097c7877-b3e1-4045-bdd2-51b2ea09e145",
+      "product_hierarchy_tags": [
+        "PERISHABLE"
+      ],
+      "purchasable_balance": 45,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": "1 l",
+      "unit_price": {
+        "base": 1,
+        "original_price": null,
+        "original_net_price": null,
+        "price": 560,
+        "net_price": null,
+        "unit": "litre"
+      },
+      "variant": null,
+      "vat_category_code": null,
+      "vat_percentage": 18,
+      "vat_percentage_decimal": "18.0",
+      "external_compliance_link": null,
+      "consent_info": {
+        "ask_consent": false,
+        "blur_image": false
+      }
+    },
+    {
+      "id": "e6d255c88f7821077e55d0fc",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "4860051007092",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "b2684b3b80b62636624466870189ae02",
+      "description": "The cost of one piece is indicated on the product",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/832aea2e-c4f2-11ee-96bf-eefcd81fc851_4860051007092.jpg",
+          "blurhash": null
+        }
+      ],
+      "videos": [],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Milk/sante/ulactose/2.5%/1l",
+      "options": [],
+      "original_price": null,
+      "original_net_price": null,
+      "item_price_discount_validity_period": null,
+      "price": 750,
+      "net_price": null,
+      "product_hierarchy_level_id": "097c7877-b3e1-4045-bdd2-51b2ea09e145",
+      "product_hierarchy_tags": [
+        "PERISHABLE"
+      ],
+      "purchasable_balance": 21,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": "1 l",
+      "unit_price": {
+        "base": 1,
+        "original_price": null,
+        "original_net_price": null,
+        "price": 750,
+        "net_price": null,
+        "unit": "litre"
+      },
+      "variant": null,
+      "vat_category_code": null,
+      "vat_percentage": 18,
+      "vat_percentage_decimal": "18.0",
+      "external_compliance_link": null,
+      "consent_info": {
+        "ask_consent": false,
+        "blur_image": false
+      }
+    },
+    {
+      "id": "a0c1964c2520204aed528fae",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "takeaway",
+        "eatin"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "4601662006162",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "903c2d913e73a95dbbbf5f07ef51da7a",
+      "description": "The price of 1 piece is indicated on the product",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/68e8ad7e753abfe6b6614b21",
+          "blurhash": "LMSPeBfk~Wt7S2azs:oKofazaeoJ"
+        }
+      ],
+      "videos": [],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Parmalat milk without lactose 1.8% 1 l",
+      "options": [],
+      "original_price": null,
+      "original_net_price": null,
+      "item_price_discount_validity_period": null,
+      "price": 995,
+      "net_price": null,
+      "product_hierarchy_level_id": "097c7877-b3e1-4045-bdd2-51b2ea09e145",
+      "product_hierarchy_tags": [
+        "PERISHABLE"
+      ],
+      "purchasable_balance": 15,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": "1 l",
+      "unit_price": {
+        "base": 1,
+        "original_price": null,
+        "original_net_price": null,
+        "price": 995,
+        "net_price": null,
+        "unit": "litre"
+      },
+      "variant": null,
+      "vat_category_code": "GEO-2",
+      "vat_percentage": 18,
+      "vat_percentage_decimal": "18.0",
+      "external_compliance_link": null,
+      "consent_info": {
+        "ask_consent": false,
+        "blur_image": false
+      }
+    },
+    {
+      "id": "1adea4da4e3abe63f81489ea",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "takeaway",
+        "eatin"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "c243683a83f51a886c3a5f32960e0fe8",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/68e8ac149a94eea72b35430b",
+          "blurhash": null
+        }
+      ],
+      "videos": [],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "რძე /სანტე/ (2.5%) 1ლ",
+      "options": [],
+      "original_price": null,
+      "original_net_price": null,
+      "item_price_discount_validity_period": null,
+      "price": 560,
+      "net_price": null,
+      "product_hierarchy_level_id": "097c7877-b3e1-4045-bdd2-51b2ea09e145",
+      "product_hierarchy_tags": [
+        "PERISHABLE"
+      ],
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null,
+      "vat_category_code": "GEO-2",
+      "vat_percentage": 18,
+      "vat_percentage_decimal": "18.0",
+      "external_compliance_link": null,
+      "consent_info": {
+        "ask_consent": false,
+        "blur_image": false
+      }
+    },
+    {
+      "id": "5c423e8e518d5e79777716af",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "takeaway",
+        "eatin"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "5fde8448b6a26162aa7da665100a0377",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/69b7f3cc5fa9055f73f02d0f",
+          "blurhash": null
+        }
+      ],
+      "videos": [],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "რძე / ასტურიანა / 1ლ 3.6%",
+      "options": [],
+      "original_price": 595,
+      "original_net_price": null,
+      "item_price_discount_validity_period": null,
+      "price": 449,
+      "net_price": null,
+      "product_hierarchy_level_id": "097c7877-b3e1-4045-bdd2-51b2ea09e145",
+      "product_hierarchy_tags": [
+        "PERISHABLE"
+      ],
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null,
+      "vat_category_code": "GEO-2",
+      "vat_percentage": 18,
+      "vat_percentage_decimal": "18.0",
+      "external_compliance_link": null,
+      "consent_info": {
+        "ask_consent": false,
+        "blur_image": false
+      }
+    },
+    {
+      "id": "ba3d83abba2ac09cb96cde37",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "takeaway",
+        "eatin"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "d4da5dad84659713d66326438e5df87a",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/69b7f7335fa9055f73f02e64",
+          "blurhash": null
+        }
+      ],
+      "videos": [],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "რძე / ასტურიანა / 1ლ 1.5%",
+      "options": [],
+      "original_price": 595,
+      "original_net_price": null,
+      "item_price_discount_validity_period": null,
+      "price": 449,
+      "net_price": null,
+      "product_hierarchy_level_id": "097c7877-b3e1-4045-bdd2-51b2ea09e145",
+      "product_hierarchy_tags": [
+        "PERISHABLE"
+      ],
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null,
+      "vat_category_code": "GEO-2",
+      "vat_percentage": 18,
+      "vat_percentage_decimal": "18.0",
+      "external_compliance_link": null,
+      "consent_info": {
+        "ask_consent": false,
+        "blur_image": false
+      }
+    },
+    {
+      "id": "47a4573138084f3663463b15",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "takeaway",
+        "eatin"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "4860008432328",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "f336ebb42fe81c89b24128eb299b0cc8",
+      "description": "The price of 1 piece is indicated on the product",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/69d616dc8e6190d55ea93321",
+          "blurhash": null
+        }
+      ],
+      "videos": [],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Milk /village milk/ pasteurized (2.5%) 900g",
+      "options": [],
+      "original_price": null,
+      "original_net_price": null,
+      "item_price_discount_validity_period": null,
+      "price": 530,
+      "net_price": null,
+      "product_hierarchy_level_id": "097c7877-b3e1-4045-bdd2-51b2ea09e145",
+      "product_hierarchy_tags": [
+        "PERISHABLE"
+      ],
+      "purchasable_balance": 5,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null,
+      "vat_category_code": "GEO-2",
+      "vat_percentage": 18,
+      "vat_percentage_decimal": "18.0",
+      "external_compliance_link": null,
+      "consent_info": {
+        "ask_consent": false,
+        "blur_image": false
+      }
+    },
+    {
+      "id": "be5621a57e7ffe81ef3c1151",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "4760081604257",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "9eb419d90406fe2d97cadd106d95143a",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/68e8ad88753abfe6b6614cd8",
+          "blurhash": "LTR{*~of~qWVRjayxuj[tRayRPj["
+        }
+      ],
+      "videos": [],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Village Nobati Milk Ultra 3.2% 950g",
+      "options": [],
+      "original_price": null,
+      "original_net_price": null,
+      "item_price_discount_validity_period": null,
+      "price": 595,
+      "net_price": null,
+      "product_hierarchy_level_id": "097c7877-b3e1-4045-bdd2-51b2ea09e145",
+      "product_hierarchy_tags": [
+        "PERISHABLE"
+      ],
+      "purchasable_balance": 24,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": "950 g",
+      "unit_price": {
+        "base": 1,
+        "original_price": null,
+        "original_net_price": null,
+        "price": 626,
+        "net_price": null,
+        "unit": "kilogram"
+      },
+      "variant": null,
+      "vat_category_code": null,
+      "vat_percentage": 18,
+      "vat_percentage_decimal": "18.0",
+      "external_compliance_link": null,
+      "consent_info": {
+        "ask_consent": false,
+        "blur_image": false
+      }
+    },
+    {
+      "id": "74b50b19ef8176f320d27c4f",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "takeaway",
+        "eatin"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "4760081600037",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "f33bba88480474344e45227bfceff1c8",
+      "description": "The price is indicated for 1 piece.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/69c5291a506e0e6b8e82410f",
+          "blurhash": null
+        }
+      ],
+      "videos": [],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Milk_/_tube_3.2%_/_1l",
+      "options": [],
+      "original_price": 560,
+      "original_net_price": null,
+      "item_price_discount_validity_period": null,
+      "price": 499,
+      "net_price": null,
+      "product_hierarchy_level_id": "097c7877-b3e1-4045-bdd2-51b2ea09e145",
+      "product_hierarchy_tags": [
+        "PERISHABLE"
+      ],
+      "purchasable_balance": 34,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null,
+      "vat_category_code": "GEO-2",
+      "vat_percentage": 18,
+      "vat_percentage_decimal": "18.0",
+      "external_compliance_link": null,
+      "consent_info": {
+        "ask_consent": false,
+        "blur_image": false
+      }
+    }
+  ],
+  "options": [],
+  "variant_groups": [],
+  "search_id": "d12377ba-5ed4-4424-a2de-d39e6ac954f0",
+  "sponsored_content": null,
+  "sorting_and_filtering": null,
+  "search_state": null,
+  "debug_info": null
+}

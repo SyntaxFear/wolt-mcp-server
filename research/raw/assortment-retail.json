@@ -1,0 +1,1678 @@
+{
+  "loading_strategy": "partial",
+  "categories": [
+    {
+      "id": "197d1907180f9e0b0646caa7",
+      "description": "",
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/6ae8470551fdd0fdbcf5f813",
+          "blurhash": null
+        }
+      ],
+      "name": "Coke x Khachapuri",
+      "slug": "coke-x-khachapuri-1",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "17ad3fa79de45370058ba9e6",
+      "description": "",
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/6a3bd66d1699254999dd308e",
+          "blurhash": null
+        }
+      ],
+      "name": "Selected for you",
+      "slug": "selected-for-you-3",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "53f80e393be9303ba4ced8e2",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/566a3cb0-4a62-11ef-bee6-8604358bcacf_____________02.jpg",
+          "blurhash": null
+        }
+      ],
+      "name": "Wolt Specials",
+      "slug": "wolt-specials-5",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "aa3955341cbbb9b5cfbba912",
+      "description": "",
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/69ca623fc33795f7accf9b74",
+          "blurhash": null
+        }
+      ],
+      "name": "Exclusive",
+      "slug": "exclusive-6",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "00975d7e9787303ac1d1f147",
+      "description": "",
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/69aaa7c9cbc8f577235b4acf",
+          "blurhash": null
+        }
+      ],
+      "name": "Hot dog, burger",
+      "slug": "hot-dog-burger-7",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "b255f2ba99c9ff4c131533aa",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/1d94a4a8-3e90-11ef-bc74-7e8ceb973b0b________.jpg",
+          "blurhash": null
+        }
+      ],
+      "name": "news",
+      "slug": "news-9",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "56a37cf6b97a0cc7bd1eeb22",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/832b5c5e-3e94-11ef-89da-224671345d3d________.jpg",
+          "blurhash": "j7zGShqC;LFGp7BVuUun41BV;;uD"
+        }
+      ],
+      "name": "Box",
+      "slug": "box-10",
+      "subcategories": [
+        {
+          "id": "3fb5fca34f27af9ca1d0dbc3",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/63d387c0-2228-11ee-8a63-468637b46985_1000x600_spar.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "Box",
+          "slug": "box-11",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "ac63036e2946e8748e897933",
+      "description": "",
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/69a96f3fcbc8f577235aae29",
+          "blurhash": null
+        }
+      ],
+      "name": "SPAR PRODUCTION",
+      "slug": "spar-production-12",
+      "subcategories": [
+        {
+          "id": "f3f4eab1b185ef1e57132d22",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/099ef30a-3aca-11ef-ac83-8edb422926b2_2503687000007.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "SANDWICH",
+          "slug": "sandwich-14",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "54c8622c886866ca43fabed7",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/8f55484a-9b34-11ee-8b96-221530d11c91_4869002039533.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "Lunchbox and salads",
+          "slug": "lunchbox-and-salads-15",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "8865041b3af33fa00844ad78",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/74419216-9b34-11ee-9e43-b65674254f88_4860119261381.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "Confectionery",
+          "slug": "confectionery-17",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "4cda77ea85c7f1805dceaa8b",
+          "description": "",
+          "images": [
+            {
+              "url": "https://imageproxy.wolt.com/assets/6a9abdf905aba77f5f214720",
+              "blurhash": null
+            }
+          ],
+          "name": "Spar Cafe",
+          "slug": "spar-cafe-18",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "610d492439977fa8d63736dc",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/e988f6e0-3e90-11ef-a31e-da6fc0eb4101____________________copy.jpg",
+          "blurhash": "jeTWTcL5X;hcKJpFqAGCg:lsP2L4"
+        }
+      ],
+      "name": "FRUITS AND VEGETABLES",
+      "slug": "fruits-and-vegetables-19",
+      "subcategories": [
+        {
+          "id": "3c9f30bf8bf22b106728d84b",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/4adf069e-68d8-11ee-9a6b-9e9342b919be_7ba8a321_5458_4a4d_b9b8_5ecbeed5a9f9_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "FRUITS",
+          "slug": "fruits-20",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "e225b4eda60e9a4300bcd47d",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/4286c432-68d8-11ee-9a6b-9e9342b919be_aaf14262_88a3_49f9_bf34_3b31e4cf566c_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "VEGETABLES",
+          "slug": "vegetables-21",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "1ec3e3e5b302fd143c0b2645",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/cade6254-68d8-11ee-b657-f65b233511d9_11131f0d_6ce3_4c88_bb7c_db2c368180b5_thumb.jpg",
+              "blurhash": "jmV:zBGG;;uGKWCplDtSXutTcOGG"
+            }
+          ],
+          "name": "HERBS",
+          "slug": "herbs-22",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "0766bc70376774f63221f383",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/0bfea194-3e90-11ef-9861-625f46273963________________.jpg",
+          "blurhash": "jcVICCKCT;lm;:GGh4tTXKlmh4KX"
+        }
+      ],
+      "name": "BREAD AND COOKIES",
+      "slug": "bread-and-cookies-23",
+      "subcategories": [
+        {
+          "id": "ad3b08b0814a3361a3113af8",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/b89ad606-cff1-11ee-b4d7-9eb73a013344_4860101500016.jpg",
+              "blurhash": "j7:;DTBSX;KXPcGYllkPTuqqcOFC"
+            }
+          ],
+          "name": "BREAD",
+          "slug": "bread-24",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "d2ea2268f406cd1a65c97afc",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/41681eca-68d8-11ee-9d14-facead856ee6_9c048db9_740b_4873_9491_da7e9991cba1_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "DRIED BREAD",
+          "slug": "dried-bread-25",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "90c43d96a3c675c614dc2da2",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/6752c812-c4f2-11ee-9d0e-9aabca668554_7400000000223.jpg",
+              "blurhash": "jfY:XIGG;;FCPctCh4GGTKBTcOpV"
+            }
+          ],
+          "name": "COOKIE",
+          "slug": "cookie-26",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "ee77f4ae3861259234e7676c",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/d48c9d88-3e8f-11ef-be1a-224671345d3d___________copy.jpg",
+          "blurhash": "jaWc2:;;T;8zXtKXd4BCd4pCBCpC"
+        }
+      ],
+      "name": "ALCOHOLIC DRINK",
+      "slug": "alcoholic-drink-27",
+      "subcategories": [
+        {
+          "id": "28796e0fa6438e20d9c46542",
+          "description": "",
+          "images": [
+            {
+              "url": "https://imageproxy.wolt.com/assets/69bd38087d97abbe0eb93f14",
+              "blurhash": null
+            }
+          ],
+          "name": "Foreign wine",
+          "slug": "foreign-wine-28",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "4661e649998d693a42f31bf0",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/b2d6c9c6-68d8-11ee-872d-ca34abb67f1c_fa539d8c_9b16_4837_9a94_1a112a4baccb_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "WINE",
+          "slug": "wine-29",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "eaf990ce10d2432f9897dd15",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/c5ba26a0-68d8-11ee-872d-ca34abb67f1c_46c0a9ed_7c70_4b9d_80ec_14514d06f70e_thumb.jpg",
+              "blurhash": "jjXLbGGG;;GGXuCpcPtDNbtTj5Cp"
+            }
+          ],
+          "name": "SPARKLING WINE",
+          "slug": "sparkling-wine-30",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "8f1849754bf47fd80e03800a",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/7074aab8-c4f3-11ee-ac5b-2e90c30db65a_8710671202550.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "BEER",
+          "slug": "beer-31",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "0fc0f867ad2b6f2800fe0cdc",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/94550ee2-c4f2-11ee-82db-7ad6ce0e0ca5_4740098084440.jpg",
+              "blurhash": "jgYL3LGF;;CaPbtTh5CpTttTcPGF"
+            }
+          ],
+          "name": "Cider",
+          "slug": "cider-32",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "152e9860f6220a4639ee49ea",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/3482f2fc-68d8-11ee-9afa-b69fd3b872d6_c2ed01ba_c357_4cbc_b876_2aac1a214307_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "Vodka & Chacha",
+          "slug": "vodka-chacha-33",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "67d3107398f3b904d57c6111",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/8a7074f0-68d8-11ee-8ad5-d2486b97a40b_31c9ba19_1a4b_41ad_9e70_0fc66e6f8bd9_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "WHISKEY, BRANDY AND COGNAC",
+          "slug": "whiskey-brandy-and-cognac-34",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "e44d1188201d9d769acffe50",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/cca50044-c4f3-11ee-a473-7a0744f96572_4740098090298.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "COCKTAIL, LIQUEUR AND VERMOUTH",
+          "slug": "cocktail-liqueur-and-vermouth-35",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63dc3bab77df29ce74c4381e",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/6b8aadfa-c4f2-11ee-baec-9a56aedd3686_5010677740036.jpg",
+              "blurhash": "j8:LzTGG;;lCPdtTh4CpPdtTh3GG"
+            }
+          ],
+          "name": "TEQUILA, GIN AND RUM",
+          "slug": "tequila-gin-and-rum-36",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "f71dea6c04edd428685305bb",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/474d0614-3e90-11ef-9822-b24993398699___________________1.jpg",
+          "blurhash": "jaVbGXIPP;jbiudrOXkPOV8PNJKI"
+        }
+      ],
+      "name": "NON-ALCOHOLIC DRINK",
+      "slug": "non-alcoholic-drink-37",
+      "subcategories": [
+        {
+          "id": "0f853bc86078579a45bcf165",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/8b6aebe0-e2ab-11ee-a31b-2e19145ce183_8710671200136.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "SODA",
+          "slug": "soda-38",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "0121dc8026af10216b6aaedd",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/c8d620a0-68d8-11ee-af77-5a032f23a235_d05b7887_059d_4c2c_b31b_ad12de40ed14_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "ENERGY AND TONIC DRINK",
+          "slug": "energy-and-tonic-drink-39",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "5122a35d559a7ed248e056d0",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/a8a89b46-68d8-11ee-8ad5-d2486b97a40b_02d92cb6_6e3b_42f4_90b9_aee8fa6efd59_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "ICED TEA AND ICED COFFEE",
+          "slug": "iced-tea-and-iced-coffee-40",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "5466e8f813968dc357b08a7b",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/ba56ed5c-68d8-11ee-9a6b-9e9342b919be_912ee6e5_8693_4de7_a24f_5d294404ad81_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "JUICE",
+          "slug": "juice-41",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "3426429e945ff501f2526ec7",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/bdcf1f68-68d8-11ee-af77-5a032f23a235_493b6012_b146_4cef_993f_c265360f4f1e_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "WATER AND MINERAL WATER",
+          "slug": "water-and-mineral-water-42",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "71dd0b4d42800aab60ba00e1",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/fbabba0c-3e8f-11ef-931d-1e9a1813db30___________________________.jpg",
+          "blurhash": "j9HJfwXL;;8y;;FkcPqY9KllWPPb"
+        }
+      ],
+      "name": "EGGS AND DAIRY PRODUCTS",
+      "slug": "eggs-and-dairy-products-43",
+      "subcategories": [
+        {
+          "id": "8ee5333c1d3b86852d39b3ff",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/7ba907ca-68d8-11ee-a057-7221bc4e1bfc_6ad6f011_e141_4be9_a4e7_42beadd34a30_thumb.jpg",
+              "blurhash": "jhWeLDKXXuGGGWTttDd3;;pmcOqm"
+            }
+          ],
+          "name": "EGGS",
+          "slug": "eggs-44",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "24a79ad7c3d30dad2c2571db",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/5d68a360-b695-11ed-8f59-ce2f39053987_ee81017c_5b62_42fa_8ca1_2bc6abcbd8574860119820274_2a262cfa_fb11_4cce_a163_5b302e0a01e9.jpeg",
+              "blurhash": null
+            }
+          ],
+          "name": "MILK, MATSONI",
+          "slug": "milk-matsoni-45",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "5e976d403e6ab20470b13bca",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/8db701b0-68d8-11ee-a057-7221bc4e1bfc_b892dffd_a247_404a_975a_b9d2778fefcc_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "sour milk",
+          "slug": "sour-milk-46",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "18ff8dde517651b0145f2671",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/5a617124-68d8-11ee-9d14-facead856ee6_62dad0ed_9def_49c4_a6cf_5a2bcff2ca4a_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "Cottage cheese",
+          "slug": "cottage-cheese-47",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "c603c3d3f3bb10a36e9d097c",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/6cf9767e-68d8-11ee-872d-ca34abb67f1c_85f4c3c8_1764_4930_b928_ce16f6bffcc4_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "sour cream",
+          "slug": "sour-cream-48",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "b0841106557ca4973dddb52a",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/88872062-68d8-11ee-a057-7221bc4e1bfc_3ecfe6fa_3382_4b32_935a_5daa146929fd_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "CREAM, KEFIR, AYRAN",
+          "slug": "cream-kefir-ayran-49",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "37d6780fbef921bc5dde0736",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/86a8d21e-c4f3-11ee-b352-7a0744f96572_8410128113476.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "YOGURT",
+          "slug": "yogurt-50",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "50e546dd5c6bd06154ba059d",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/6f99161e-68d8-11ee-872d-ca34abb67f1c_f755b652_ccf4_49f2_a91c_68fe6d54f6e1_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "DESSERT",
+          "slug": "dessert-51",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "ff44fbd27f553e84c349e266",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/f2b1c926-62af-11ee-b53a-967aea7d7059_8716605002081.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "Foreign cheese",
+          "slug": "foreign-cheese-52",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "b5230f423b698aabfdd44e37",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/b552d6ca-7343-11ee-a2e6-e2d397b8a6d4_2610209000008.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "Georgian cheese",
+          "slug": "georgian-cheese-53",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "7e88f8c185098baa271b7192",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/754386a8-68d8-11ee-872d-ca34abb67f1c_a917735d_551c_4fab_974c_4651e7c0a91d_thumb.jpg",
+              "blurhash": "jeXKTFlF;;OWLcGppBqG;;KW8xlq"
+            }
+          ],
+          "name": "Melted cheese",
+          "slug": "melted-cheese-54",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "3a50b3d1cb4b96b4c9ddeb01",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/8977ef48-c4f3-11ee-9b6e-024f62499537_7640153865199.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "Butter",
+          "slug": "butter-55",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "68a084d013637a4f6bf60a1f",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/64a6756c-68d8-11ee-8ad5-d2486b97a40b_ae78f981_9128_4c50_ad42_3f64fbf01704_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "the spread",
+          "slug": "the-spread-56",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "c67e150684305935772b49c2",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/bad0b9a2-68d8-11ee-9d14-facead856ee6_ab9048e1_9eef_435a_83d3_a2e0b29140df_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "CONDENSED MILK",
+          "slug": "condensed-milk-58",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "4b25959a8cbc65b8724fb854",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/f0e82168-3e90-11ef-8720-02a95d58f27d_______________.jpg",
+          "blurhash": "jdUdDomG;;NlOXPcCXhlX;FBcymq"
+        }
+      ],
+      "name": "MEAT PRODUCTS AND FISH",
+      "slug": "meat-products-and-fish-59",
+      "subcategories": [
+        {
+          "id": "5de862f41e551cabd570f9cd",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/7114dde0-c4f2-11ee-af2e-421860afb9f7_4860119260803.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "SAUSAGE AND SARDINE",
+          "slug": "sausage-and-sardine-60",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "c798bc3bd4597bcc35e0fb72",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/a51e2a2e-19cf-11ef-b407-32dfa968a0e1_5908230514357.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "SAUSAGE AND PATE",
+          "slug": "sausage-and-pate-61",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "fc3a3ad5b47fec5716456544",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/4da1e2a2-68d8-11ee-8c96-ae5bc31da4f9_6dbeaa76_514c_4944_a600_f0deab8c1dee_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "BACON AND HAM",
+          "slug": "bacon-and-ham-62",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "a083873dd52bba11b3037059",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/b212b43c-68d8-11ee-a057-7221bc4e1bfc_738d8f35_70d4_4822_9ff3_aa65b78a08ec_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "FISH",
+          "slug": "fish-63",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "d300bc0d25bd128b9a1a4bbc",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/396863b8-3e90-11ef-961d-6e145ccbe1f7_________.jpg",
+          "blurhash": "jfJqyvh5;;iHXKuXh5JCndKVh4KC"
+        }
+      ],
+      "name": "FOOD",
+      "slug": "food-64",
+      "subcategories": [
+        {
+          "id": "070e5264583d03229eb3966a",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/07eca3e0-c4f0-11ee-85c9-421860afb9f7_8710671200167.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "OIL AND VINEGAR",
+          "slug": "oil-and-vinegar-65",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "59a0da93f4f0873151eb38bc",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/46546150-68d8-11ee-b657-f65b233511d9_ba56c19d_a398_4530_95e9_b1fbfc5d9c31_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "CANNED VEGETABLES",
+          "slug": "canned-vegetables-66",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "ccbd35b4c28faaba8cf119e9",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/cde345b4-68d8-11ee-a0dd-52d069f8bc12_8e8d13ef_7e79_4d5c_b1fa_b5c995744ad0_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "CANNED FISH AND MEAT",
+          "slug": "canned-fish-and-meat-67",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "7224e1130b195b682980fba8",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/5a0996d4-68d8-11ee-b657-f65b233511d9_71b57ec8_29c4_4bd9_82a5_8fa5228efbdf_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "Sauce, Tkemali",
+          "slug": "sauce-tkemali-68",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "06cd403b13e7fd5639e24f7f",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/9d53f2a0-c4f3-11ee-9337-96b5e0412694_4870035007673.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "KETCHUP, MAYONNAISE",
+          "slug": "ketchup-mayonnaise-69",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "d5449a5a81779aff552caa35",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/783e2368-68d8-11ee-8599-c240951a2cf5_43c45f40_a039_4aeb_be7a_84453124ee82_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "PASTA",
+          "slug": "pasta-70",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "dc778ec1d07c8e281185494e",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/58d85bb0-68d8-11ee-b657-f65b233511d9_900b3928_acba_454c_bbc7_36618a021ce2_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "CEREALS AND CEREALS",
+          "slug": "cereals-and-cereals-71",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "1d18053e0db01c9d63295724",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/3bddae98-68d8-11ee-a0dd-52d069f8bc12_9fc2c039_9272_45fc_a266_4e5f9b4a4530_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "QUICK COOKING",
+          "slug": "quick-cooking-72",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "8e600fbb3f8a4ddacb21a732",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/30c3fcba-68d8-11ee-ac27-865c7c702cd7_a2872902_0ffa_48da_b967_d9920b6012c9_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "READY BREAKFAST AND MUESLI",
+          "slug": "ready-breakfast-and-muesli-73",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "4e2fd209ff33264a29cd736f",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/541ed0a4-68d8-11ee-b657-f65b233511d9_486f4bb5_8f6e_4652_8fe6_06039d0caef7_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "SUGAR",
+          "slug": "sugar-74",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "497ca30930cb263405b50bcc",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/ca5ebebe-68d8-11ee-af77-5a032f23a235_8d5f9039_8b6e_4afd_b848_e8475e5c1c00_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "FLOUR AND BAKING PRODUCTS",
+          "slug": "flour-and-baking-products-75",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "0d48005edd7c3fc1c051975f",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/147b2fa2-c4f3-11ee-bfff-a61f1ebcc6a9_4860117380220.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "SALT, SPICES",
+          "slug": "salt-spices-76",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "eaa0425f6776f75ea3912cd3",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/ed48b602-c4f2-11ee-9b68-9aabca668554_8710671149015.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "CHOCOLATE CREAM, JAM AND HONEY",
+          "slug": "chocolate-cream-jam-and-honey-77",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "9ebf9d9393140e5cf1d47a47",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/17d3c396-3e9a-11ef-9243-7ea5f5bab83c___________.jpg",
+          "blurhash": "jcXcf4Pt;;OYTKhCllSX;tKX93h4"
+        }
+      ],
+      "name": "SWEETS",
+      "slug": "sweets-78",
+      "subcategories": [
+        {
+          "id": "ffb47f5f3fd917e08f0aa6f8",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/b27d8ebc-b698-11ed-a7af-2e579f89beeb_dfd0f917_ca33_46f1_a2a8_cabe5732b7757426797669221_3f486e5d_86bc_4f7f_930d_48ffc8b7b37b.jpeg",
+              "blurhash": null
+            }
+          ],
+          "name": "CHOCOLATE BAR",
+          "slug": "chocolate-bar-79",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "f495111c983922f71247038d",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/3d7d34d4-c4f0-11ee-a8d1-ce7544428413_5000159461122.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "CHOCOLATE",
+          "slug": "chocolate-80",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "53ccaeacecace6cccb647c37",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/afbbeb0e-68d8-11ee-93dc-ae5bc31da4f9_b14bed46_5d78_45ad_9d33_5e4766314742_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "CHOCOLATE SET",
+          "slug": "chocolate-set-81",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "2737d13e7c564614a4c8f081",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/a1200ef4-68d8-11ee-93dc-ae5bc31da4f9_5f1d52eb_066f_44d6_9007_ec739de4c76e_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "WAFFLE",
+          "slug": "waffle-82",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "ac1170b89756ab73fa84b5bf",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/a592b5a4-68d8-11ee-93dc-ae5bc31da4f9_ff567012_7f45_4c70_905b_f67a3c72eaaa_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "COOKIES",
+          "slug": "cookies-83",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "6aec53c3118682fcfd7088b5",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/a6e94bc0-68d8-11ee-9a6b-9e9342b919be_3d873a96_e826_4d07_8834_bf3bfb6de89e_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "CROISSANT, BISCUIT AND CAKE",
+          "slug": "croissant-biscuit-and-cake-84",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "99beb47fa8debeaa0f54e4fb",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/5d5a693a-b74e-11ed-ba29-c27785ea5127_9e735a74_602f_4210_ac5b_24e5f77647084607065000790_2f575803_0d3e_40bf_b169_14157452bd57.jpeg",
+              "blurhash": null
+            }
+          ],
+          "name": "SWEETS FOR CHILDREN",
+          "slug": "sweets-for-children-85",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "536f3d95a121690b98879743",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/95a5b9f2-68d8-11ee-ac27-865c7c702cd7_079ff0a1_8987_4e08_9c9e_0221f4a2a938_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "CANDY",
+          "slug": "candy-86",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "2d4dbeb86c5171d3a86e91d8",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/ccfb59a2-68d8-11ee-9a6b-9e9342b919be_685316d6_b612_4665_8174_a396015902ae_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "CHEWING GUM",
+          "slug": "chewing-gum-88",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "406d7fc4ca2033a9781e0cfc",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/20b23358-3e9a-11ef-9452-fa30fd045dbd_______.jpg",
+          "blurhash": "jeItjuTc;;GWXJJBh5qqj;KSMOh6"
+        }
+      ],
+      "name": "SNACK",
+      "slug": "snack-89",
+      "subcategories": [
+        {
+          "id": "fb6116248fb88ff795d72c3f",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/a7b3bde2-68d8-11ee-a057-7221bc4e1bfc_1ff963cd_02e4_4f8e_8075_6146c11c6909_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "SUNFLOWER SEEDS, NUTS AND DRIED FRUIT",
+          "slug": "sunflower-seeds-nuts-and-dried-fruit-90",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "0b9b5b91e007292a94ac99ea",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/abc3137e-68d8-11ee-a0dd-52d069f8bc12_fa95868b_54f7_4e2d_92fa_1fd4d0b63a81_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "CHIPS",
+          "slug": "chips-91",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "2920b81a6bc65174dfa9711f",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/ad65ab38-68d8-11ee-93dc-ae5bc31da4f9_4e0e5bd6_a559_4855_8e69_5b8aaa0d00a2_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "SALTY AND SWEET SNACK",
+          "slug": "salty-and-sweet-snack-92",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "315018565ffa4cc89511dc56",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/946942ae-c4f2-11ee-88eb-d67b564a223a_4770078193220.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "CRACKER",
+          "slug": "cracker-93",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "7b224c9e082801c004c80709",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/e0904304-3e90-11ef-9501-da6fc0eb4101_____________.jpg",
+          "blurhash": "jhVpVQL9;;ppP9ppmpKT:SFT9qq8"
+        }
+      ],
+      "name": "COFFEE AND TEA",
+      "slug": "coffee-and-tea-94",
+      "subcategories": [
+        {
+          "id": "1936aee0567cedef4ea17f2a",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/b17ce8f8-68d8-11ee-93dc-ae5bc31da4f9_06c737a0_6d05_45b0_af91_0c908a49261f_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "INSTANT COFFEE",
+          "slug": "instant-coffee-95",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "853ce5be76257e7ee37be2e1",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/af12f490-68d8-11ee-9d14-facead856ee6_15ef450a_c69d_4adc_8e8e_b2d6a2234173_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "PRECIPITATED COFFEE",
+          "slug": "precipitated-coffee-96",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "000d217382f6545c6caf0145",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/bbe9f75e-68d8-11ee-8599-c240951a2cf5_c0fd0667_1315_49fa_a31d_e686bfb71d92_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "TEA",
+          "slug": "tea-97",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "4a9729df89f7574131f7a6a7",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/af10e18c-68d8-11ee-93dc-ae5bc31da4f9_2a1ddb6b_45c0_4182_bbe3_a15af3fb6c30_thumb.jpg",
+              "blurhash": "jiWevDGG;;GGKYCpllpC;;tT8ytT"
+            }
+          ],
+          "name": "COCOA AND HOT CHOCOLATE",
+          "slug": "cocoa-and-hot-chocolate-98",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "73c966abb802396a9fe254cf",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/e0f9aa20-3e8f-11ef-a469-da6fc0eb4101____________________02_copy.jpg",
+          "blurhash": "j8DJrHLc;;gPLdBlp4uY9JpWVPKF"
+        }
+      ],
+      "name": "FROZEN PRODUCTS",
+      "slug": "frozen-products-99",
+      "subcategories": [
+        {
+          "id": "6a209f816d8994f236bca99f",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/ce365024-68d8-11ee-872d-ca34abb67f1c_8a0ef383_b6bd_4522_996c_5c72baa2cc8e_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "Frozen meat and fish",
+          "slug": "frozen-meat-and-fish-100",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "0659a89f193e7a32c269d226",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/6e160df8-c4f2-11ee-a39b-024f62499537_4860119260872.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "SEMI-FINISHED PRODUCTS",
+          "slug": "semi-finished-products-101",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "5b419b2d449ad22c2bf43ad5",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/0ddcc5f2-c4f3-11ee-b4ec-7ad6ce0e0ca5_5000159343961.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "ICE CREAM",
+          "slug": "ice-cream-102",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "99d35192b777e33d1dd584c9",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/4b239fac-68d8-11ee-8ad5-d2486b97a40b_4ce0edb4_858d_4761_9598_ccba46164868_thumb.jpg",
+              "blurhash": "j4zV6nXK008y00h4Ldhl4gGG;;KX"
+            }
+          ],
+          "name": "ICE",
+          "slug": "ice-103",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "2a0d31267e9baaa795e3ddaa",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/f05cb3ae-3e8f-11ef-85c0-da6fc0eb4101_____________2.jpg",
+          "blurhash": "jeWIOUKPP;hrHuh5qSODh5KpDcha"
+        }
+      ],
+      "name": "SELF-CARE",
+      "slug": "self-care-105",
+      "subcategories": [
+        {
+          "id": "fa39f3f093650dab45423193",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/4210280e-68d8-11ee-9d14-facead856ee6_71836328_12d4_4e3b_b6bd_091681df3cdb_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "WOMAN'S HYGIENE",
+          "slug": "womans-hygiene-106",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "812604ae558177ad2894b35b",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/d89904d6-c4f3-11ee-adf7-9aabca668554_4311501657409.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "ORAL CARE",
+          "slug": "oral-care-107",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "95f691df7abe57eb60c08503",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/8405e91a-68d8-11ee-9a6b-9e9342b919be_c6a791c0_91d8_4339_b51d_55de5ce65b97_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "HAIR CARE",
+          "slug": "hair-care-108",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "fb6142068fed47374423a16c",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/e833bc16-3131-11ee-8ad0-fae6f9ddf967_8720181032240.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "BODY AND FACE CARE",
+          "slug": "body-and-face-care-109",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "76da06cd13bf4d12d40049b1",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8bffc06bbde74b8eec406/a131243e-c4f2-11ee-bbab-223c05e4ea38_4019042000011.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "SELF-CARE",
+          "slug": "self-care-110",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "985be132ae731f760e7ada3a",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/14c941c6-3e90-11ef-866b-96f93ddd7860_______________.jpg",
+          "blurhash": "jgYb9YOWX;JBOSKDhrlqT4FDdbmG"
+        }
+      ],
+      "name": "HOUSEHOLD ITEMS AND HYGIENE",
+      "slug": "household-items-and-hygiene-111",
+      "subcategories": [
+        {
+          "id": "28251b0128a6dc98a79332be",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/3fdb5be4-68d8-11ee-9d14-facead856ee6_c1dd91c6_4319_4448_86de_ea72fd76e24e_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "DISHWASHING DETERGENTS",
+          "slug": "dishwashing-detergents-112",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "8207d8949f68ac40865827a9",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/c19fa5e0-68d8-11ee-af77-5a032f23a235_db1d94fc_a780_4e54_a9b6_b24d209c4cbb_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "WASHING POWDER AND DETERGENTS",
+          "slug": "washing-powder-and-detergents-113",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "cceb040600856a8767db1065",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/3cd39826-68d8-11ee-9d14-facead856ee6_967e0424_9f00_4c9f_9455_411958136493_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "HOUSEHOLD ITEMS AND HYGIENE",
+          "slug": "household-items-and-hygiene-114",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "4b2f68121e2be436fe3ff359",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/058d366e-68d9-11ee-8599-c240951a2cf5_e73be691_fad1_46aa_875d_35e9a02dd3ee_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "PAPER",
+          "slug": "paper-115",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "307e02a7906ba644a77cf93f",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/d3cef7f2-68d8-11ee-af77-5a032f23a235_cdd71fce_8dbd_48dc_967d_823502c009c4_thumb.jpg",
+              "blurhash": "j9ZvrRGG;;KWXuCp8PtTXKCp8ytT"
+            }
+          ],
+          "name": "HOUSEHOLD INVENTORY AND MORE",
+          "slug": "household-inventory-and-more-116",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "1a8f4980b7c4187b2bc18e19",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/a3820a4e-68d8-11ee-9afa-b69fd3b872d6_47387e86_ebea_47ea_a93b_6903edb706cc_thumb.jpg",
+              "blurhash": "jtQcD1PcTumpFSh4lFPc;;lCpkKn"
+            }
+          ],
+          "name": "FESTIVE",
+          "slug": "festive-118",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "da5335b4b8edf8d62a1538c8",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/5bda6962-e29e-11ee-871d-028b02c6a91e_9375634852136.jpg",
+              "blurhash": "jfW:DEGG;;GGKGy8pDtTXKCpcQtT"
+            }
+          ],
+          "name": "Utensils",
+          "slug": "utensils-119",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "f976b1650c89671cff9d1643",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/e953de2a-3e8f-11ef-9f02-2e091b9f6c0c___________________copy.jpg",
+          "blurhash": "jgWJJYOH;;d4Talph9P6XAllcXPb"
+        }
+      ],
+      "name": "ELECTRICAL GOODS",
+      "slug": "electrical-goods-120",
+      "subcategories": [
+        {
+          "id": "cf167260ecd8915ab01bbb3e",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/91718b2c-68d8-11ee-9afa-b69fd3b872d6_85718641_9c96_4e1c_bb80_6392df8ec590_thumb.jpg",
+              "blurhash": "jlXKzBBW;;GWGYKGpklmTKGEcOlD"
+            }
+          ],
+          "name": "BATTERY",
+          "slug": "battery-121",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "a310cb9c17d966ed3bf053fc",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/6af7c524-68d8-11ee-8ad5-d2486b97a40b_f0073129_7e7f_425d_bd01_38023e3fa0ed_thumb.jpg",
+              "blurhash": "jhY:HGGG;;pVFlCGqWpCX;uqciBC"
+            }
+          ],
+          "name": "ELECTRICAL GOODS",
+          "slug": "electrical-goods-123",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "e742aa4513a36d1c3f4834b9",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/28f88b3e-3e9a-11ef-b89d-e267d7a43d3f______________________________.jpg",
+          "blurhash": "jgRdOLTd;;iSPsGXllp5rsqWkQt5"
+        }
+      ],
+      "name": "ANIMAL FEEDING AND ACCESSORIES",
+      "slug": "animal-feeding-and-accessories-124",
+      "subcategories": [
+        {
+          "id": "3cfe0df4ec06a7b8173ebd7b",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/3d69146e-68d8-11ee-9afa-b69fd3b872d6_1cd694c8_7b27_4767_8a7a_2a638de5daa9_thumb.jpg",
+              "blurhash": null
+            }
+          ],
+          "name": "ANIMAL FEEDINg",
+          "slug": "animal-feeding-125",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "595ffde743903794a46ffee2",
+          "description": "",
+          "images": [
+            {
+              "url": "https://imageproxy.wolt.com/assets/68e619ba2d43befffd28357d",
+              "blurhash": null
+            }
+          ],
+          "name": "accessories",
+          "slug": "accessories-126",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    }
+  ],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "selected_language": "en",
+  "available_languages": [
+    {
+      "autotranslated": true,
+      "language": "de",
+      "name": "German"
+    },
+    {
+      "autotranslated": true,
+      "language": "en",
+      "name": "English"
+    },
+    {
+      "autotranslated": true,
+      "language": "fr",
+      "name": "French"
+    },
+    {
+      "autotranslated": false,
+      "language": "ka",
+      "name": "Georgian"
+    },
+    {
+      "autotranslated": true,
+      "language": "ru",
+      "name": "Russian"
+    }
+  ],
+  "primary_language": "ka"
+}

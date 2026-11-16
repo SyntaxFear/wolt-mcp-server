@@ -1,0 +1,279 @@
+HOST https://beta.wolt.com
+HOST https://beta2.wolt.com
+HOST https://blog.wolt.com
+HOST https://blog.wolt.com/aut
+HOST https://blog.wolt.com/cro
+HOST https://blog.wolt.com/cze
+HOST https://blog.wolt.com/de
+HOST https://blog.wolt.com/dnk
+HOST https://blog.wolt.com/engineering
+HOST https://blog.wolt.com/est
+HOST https://blog.wolt.com/fin
+HOST https://blog.wolt.com/geo
+HOST https://blog.wolt.com/grc
+HOST https://blog.wolt.com/hun
+HOST https://blog.wolt.com/isl
+HOST https://blog.wolt.com/isr
+HOST https://blog.wolt.com/kaz
+HOST https://blog.wolt.com/lat
+HOST https://blog.wolt.com/lit
+HOST https://blog.wolt.com/nor
+HOST https://blog.wolt.com/pol
+HOST https://blog.wolt.com/srb
+HOST https://blog.wolt.com/svk
+HOST https://blog.wolt.com/svn
+HOST https://blog.wolt.com/swe
+HOST https://careers.wolt.com
+HOST https://consumer-static-assets.wolt.com/loyalty/stamp-cards/stamps
+HOST https://converse-api.wolt.com
+HOST https://converse-web-static.wolt.com/conveyer/frame.js
+HOST https://explore.wolt.com/${e}
+HOST https://explore.wolt.com/${i
+HOST https://explore.wolt.com/legal/referral-program-terms
+HOST https://launch.wolt.com
+HOST https://life.wolt.com/
+HOST https://life.wolt.com/${i
+HOST https://life.wolt.com/${r}
+HOST https://merchant.wolt.com/${e}
+HOST https://merchant.wolt.com/${i
+HOST https://merchant.wolt.com/storefront-loyalty-terms
+HOST https://press.wolt.com
+HOST https://schema.wolt.com/wolt-org
+HOST https://sourcemaps.internal.wolt.com/wolt-com/10257-894d6840379373d5.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/10267-6aa1ed0552e8c33c.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/10816-f8efceaebdaa1e46.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/11244-07438577cdc80fdc.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/1218-c8399c26b6966a41.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/12391-b74ca730ac6745c7.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/15685-1ab3242d3fe04f69.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/16915-3004857346a59771.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/19846-0367bd89cf6bf9be.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/22340-4d4e1d18efc74944.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/24706-cf494af78852e4ab.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/25224-04f94e095b95093f.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/25555-e04af65fea39782a.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/26684-249185dbfbe4b7d8.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/26831-eafdad1cf3504416.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/27432-b1011fa6cb115169.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/27578-74160381b990e70e.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/27892-44f70d852da0191a.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/28500-e84b771a1030f428.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/29062-b0c8490921911f1f.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/29953-e3e8a0b616f3ad88.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/30095-d58c37fe3227d76a.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/30880-6cd0cf12e2cb38b9.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/30994-25685e2f76842425.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/33218-1fcab9cf7b88bc63.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/33243-7bb33727f0a92885.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/37609-51988859e09dee0b.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/39077-99206f7b6a49de60.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/4081-442e06a6862575d1.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/41641-7d642f952f6b1893.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/41937-74d8522ea8ef7e83.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/43036-8e94e64ef0646088.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/43037-f79f1e93d95dc8f1.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/43325-1c2638ed6f595b64.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/43933-4fc0db3bccbd7f74.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/44532-65850faa7f9e5eda.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/44554-6a10f7858e2aab92.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/45180-7505edd89f93dd94.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/46400-34d06152076b0408.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/47722-3bca8a109919801d.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/49024-039010d7d8b8ae17.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/500-d8967b585d6aa221.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/503-2d3c0ecce2161460.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/50598-d16d2f708a89b75c.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/50619-50e619b1805092fc.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/51078-ba8268316f8fcf28.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/51708-703259d8253b766b.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/51995-24763ea96aff0b37.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/52271-8b959d954e54345f.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/5247-ca8988f520f5fff5.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/53946-3ecb0186ac2a089b.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/54707-8e58bf40c9e98c3e.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/55634-284a4c9e5a597eb1.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/56013-e6de62d7ebb4f152.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/56678-deb053900434bc2e.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/60957-3d3c0c31f7e48639.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/61244-cd03856987bd8154.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/61578-bb90f9ce61951e55.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/61745-abd1aad284a2e22a.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/62576-7a9e9d77bab4959e.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/62828-4db14152119f961b.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/68106-c4a8562bc21cd627.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/69642-3c37bf79cddbba6c.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/70800-d21e12f88be0ee41.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/724-ab266a4c73228dbc.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/7248-c0a390d3ef369fba.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/73978-062cd8033b099279.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/74066-d09bcd8e18331a42.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/74345-84b8ea413636a99e.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/77789-07347bda70293483.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/78531-30afd4daa169ff26.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/7923-12a2068123ab0846.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/80277-ed184969023492d9.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/82704-e3924a9f6c7ca801.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/82867-670efc453cd20a56.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/83539-1c10be5776015b1c.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/84787-af24ef33dbab91ac.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/86461-54535fce65a431a8.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/876-57242f1d46dc187b.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/87709-9690be1fa6ba9f5c.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/8778-c6cc2b762e954ff7.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/87789-b4d88ac79bb51e49.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/88213-c4fbe9059e1c86b9.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/88826-733e8dde9392d556.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/89628-570f33f4bdf77434.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/90980-3273b63798a9509c.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/91439-c1bd34541c6dff01.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/91587-4b7343c3a7445efc.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/91651-39f315f167c1cc7d.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/9252-95ca93f89f32ef8b.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/95002-223f75e9cdebc6ca.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/96006-0f63e753c6ca7afe.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/97281-8d24f1833f0ea01e.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/97991-12804a8eb606bb2d.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/99350-e6bd9a1c55030e0b.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/99372-613055d0eebed300.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/app-fac76095aa3764d4.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/avo252-6d2080186b1dcaa1.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/avo254-3fae32fc53a82fa9.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/avo632-dacdc731112c8ff3.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/avo635-55f446c2d29cfbcb.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/avo638-52c51971fd5688a8.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/client-js-modules-discovery-containers-DiscoveryPage-DiscoveryPage-880
+HOST https://sourcemaps.internal.wolt.com/wolt-com/client-js-views-venue-VenuePageRoot-9dc3a599f24c387d.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/js-modules-v2-authModal-containers-AuthModalContainer-AuthModalContain
+HOST https://sourcemaps.internal.wolt.com/wolt-com/runtime-fbef1a28fe9a8295.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/telemetry-feature-ae0b6b1bd799f138.chunk.js.map
+HOST https://sourcemaps.internal.wolt.com/wolt-com/vendor-49f2e6f4bebfe80c.js.map
+HOST https://wolt-com-static-assets.wolt.com/
+HOST https://wolt.com
+HOST https://wolt.com${s}
+HOST https://wolt.com/search
+/consumer-api/consents-router/v1/consent-enrollments-config
+/consumer-api/consents-router/v1/marketing/click-ids
+/consumer-api/consumer-assortment/v1/venues/slug/${e}/assortment
+/consumer-api/consumer-assortment/v1/venues/slug/${e}/assortment/categories/slug/${t}
+/consumer-api/consumer-assortment/v1/venues/slug/${e}/assortment/items
+/consumer-api/consumer-assortment/v1/venues/slug/${e}/assortment/items/discount
+/consumer-api/consumer-assortment/v1/venues/slug/${e}/assortment/items/search
+/consumer-api/venue-content-api/v2/venue-content/${e}/recommendations
+/consumer-api/venue-content-api/v3/web/venue-content/${n}/collections/${e}
+/consumer-api/venue-content-api/v3/web/venue-content/slug/${a}/page/${i}
+/consumer-api/venue-content-api/v3/web/venue-content/slug/${n}
+/order-tracking/v1/courier-call/session
+/order-tracking/v1/live-activity/local-creation/request
+/order-tracking/v1/live-activity/push-to-start-token/register
+/order-tracking/v1/live-activity/push-token/register
+/order-tracking/v1/subscription/register
+/order-tracking/v1/unified/marketplace/cache/{order_pdrn}
+/order-tracking/v1/unified/marketplace/experience/decision
+/order-tracking/v1/unified/marketplace/me-tab/order-pdrns
+/order-tracking/v1/unified/marketplace/unified-tracker/order-pdrns
+/order-tracking/v1/unified/marketplace/{order_pdrn}
+/order-tracking/v1/unified/share/{share_token}
+/order-xp/v1/baskets
+/order-xp/v1/baskets/bulk/delete
+/order-xp/v1/baskets/count
+/order-xp/v1/baskets/venue
+/order-xp/v1/pages/order-tracking/${e}
+/order-xp/v1/restricted-items/user-consents
+/order-xp/web/v1/pages/baskets?lat=${t}&lon=${e}
+/order-xp/web/v1/pages/orders
+/order-xp/web/v1/pages/venue/${e}/item/${t}
+/order-xp/web/v1/pages/venue/pricing-estimates
+/order-xp/web/v1/pages/venue/slug/${e}/static
+/order-xp/web/v1/venue/slug/${e}/dynamic/
+/order-xp/web/v2/pages/checkout
+/payment-verify
+/payment/processout
+/paymentVerifySwishVipps
+/v1/access_confirmation/${e}
+/v1/access_confirmation/${t}/submit
+/v1/access_confirmation/phone_number/site_key
+/v1/access_confirmation/status
+/v1/analytics-tags
+/v1/analytics-tags?analyticsOnly=true
+/v1/analytics-tags?prospectsOnly=true
+/v1/app-store-reviews
+/v1/auth/complete
+/v1/auth/init
+/v1/auth/metrics
+/v1/captcha/site_key
+/v1/captcha/site_key_authenticated
+/v1/cities
+/v1/cities/${e}/districts
+/v1/consumer-api/address-fields
+/v1/consumer-api/user-prompts/email_verification/hide
+/v1/contentful/footer
+/v1/converse-guest-token
+/v1/country_list
+/v1/geo_ip
+/v1/geo_ip_approximate
+/v1/google/geocode-address
+/v1/google/geocode/json
+/v1/group_order
+/v1/group_order/
+/v1/group_order/${e}
+/v1/group_order/${e}/details
+/v1/group_order/${e}/friends
+/v1/group_order/${e}/invite/${t}
+/v1/group_order/${e}/locked
+/v1/group_order/${e}/participants/me/basket
+/v1/group_order/${e}/purchase
+/v1/group_order/guest/${e}/participants/me
+/v1/group_order/guest/${e}/participants/me/basket
+/v1/group_order/guest/${e}/referral_code
+/v1/group_order/guest/join/${e}
+/v1/group_order/join/${e}
+/v1/log
+/v1/pages/${e}/${t}
+/v1/pages/brand/${e}
+/v1/pages/front
+/v1/pages/ftuPromoCounter
+/v1/pages/menu-item-list/${e}
+/v1/pages/recommendations/out-of-range
+/v1/pages/search
+/v1/pages/venue-list/${e}
+/v1/pages/venue-menu-item-list/${e}
+/v1/payment-methods/profile
+/v1/subscriptions
+/v1/subscriptions/plans?device_country_code=${t}
+/v1/user/${e}/verify_email
+/v1/user/me
+/v1/user/me/consents
+/v1/user/me/email
+/v1/user/me/email/email_update_code
+/v1/users/start_email_verification
+/v1/venue-campaigns/toast
+/v1/version
+/v1/wauth2/access_token
+/v1/wauth2/consumer-sms-email-verification
+/v1/wauth2/consumer-sms-email-verification-validate
+/v1/wauth2/consumer-sms/validate-number
+/v1/wauth2/consumer-sms/verification-delivery-methods
+/v1/wauth2/login_methods/${e}
+/v1/wauth2/login_methods/${e}/start_verification
+/v1/wauth2/login_methods/${o}/verify
+/v1/wauth2/login_methods/${t}/verify
+/v1/wauth2/logout
+/v1/wauth2/me/verify_number
+/v1/waw-api/corporate-leads
+/v1/waw-api/signup-countries
+/v1/waw-api/user-permissions
+/v2/config
+/v2/config/consents
+/v2/delivery/info
+/v2/delivery/info/${e}
+/v2/google/places/autocomplete/json
+/v2/notifications
+/v2/notifications/${e}/seen
+/v2/order_details/subscriptions/${e}
+/v2/order_details/subscriptions?${t}
+/v2/user
+/v2/wauth2/consumer-sms/start-phone-number-authentication
+/v2/wauth2/me/request_number_verification
+/v3/user/me/payment_methods
+/v3/users/email_login
+/v3/venues/favourites/${e}
