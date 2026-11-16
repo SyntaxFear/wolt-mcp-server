@@ -1,7 +1,7 @@
 import { z } from "zod";
 import type { WoltHttp } from "../http.js";
 
-const MAX_CATEGORY_PAGES = 15;
+const MAX_CATEGORY_PAGES = 40;
 
 const ItemSchema = z.object({
   id: z.string(),
@@ -77,7 +77,8 @@ export async function fetchCategoryItems(
   category: string,
   language: string,
 ): Promise<Items> {
-  const found: Items = { items: [], options: [] };
+  const items = new Map<string, Item>();
+  const options = new Map<string, Option>();
   let pageToken: string | undefined;
   for (let page = 0; page < MAX_CATEGORY_PAGES; page++) {
     const result = await http.get(`${base(slug)}/categories/slug/${encodeURIComponent(category)}`, {
@@ -85,12 +86,12 @@ export async function fetchCategoryItems(
       query: { language, page_token: pageToken },
       language,
     });
-    found.items.push(...result.items);
-    found.options.push(...result.options);
+    for (const item of result.items) items.set(item.id, item);
+    for (const option of result.options) options.set(option.id, option);
     pageToken = result.metadata?.next_page_token ?? undefined;
     if (!pageToken) break;
   }
-  return found;
+  return { items: [...items.values()], options: [...options.values()] };
 }
 
 export function searchAssortment(http: WoltHttp, slug: string, q: string, language: string): Promise<Items> {

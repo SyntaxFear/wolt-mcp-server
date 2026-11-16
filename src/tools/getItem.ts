@@ -1,6 +1,6 @@
 import { z } from "zod";
 import { fetchItemExtraInfo } from "../api/endpoints/assortment.js";
-import { findItems, textLines } from "../domain/menu.js";
+import { findItemsByIds, textLines } from "../domain/menu.js";
 import { WoltError } from "../errors.js";
 import { DishView } from "../format/views.js";
 import { attachPictures, FULL_WIDTH } from "../media/images.js";
@@ -28,7 +28,7 @@ export const getItem = defineTool({
   async handler({ venue: slug, item_id }, context) {
     const menu = await loadMenu(context, slug);
     const [found, sections] = await Promise.all([
-      findItems(context.http, slug, menu.assortment, { itemIds: [item_id] }, menu.language),
+      findItemsByIds(context.http, slug, menu.assortment, [item_id], menu.language),
       fetchItemExtraInfo(context.http, menu.venue.id, item_id, menu.language),
     ]);
     if (found.items.length === 0) {

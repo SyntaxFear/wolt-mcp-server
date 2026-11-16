@@ -1,6 +1,6 @@
 import { type Assortment, fetchAssortment, type Item, type Option } from "../api/endpoints/assortment.js";
 import { fetchVenueStatic, type VenueStatic } from "../api/endpoints/venue.js";
-import { findItems, isTranslated, toDish } from "../domain/menu.js";
+import { findItemsByIds, isTranslated, toDish } from "../domain/menu.js";
 import { warningsFor } from "../domain/preferences.js";
 import type { Dish } from "../format/views.js";
 import type { ToolContext } from "./defineTool.js";
@@ -30,7 +30,7 @@ async function originalNames(
   const primary = menu.assortment.primary_language;
   if (!menu.translated || !primary || itemIds.length === 0) return new Map();
   const source = await fetchAssortment(http, slug, primary);
-  const { items } = await findItems(http, slug, source, { itemIds }, primary);
+  const { items } = await findItemsByIds(http, slug, source, itemIds, primary);
   return new Map(items.map((item) => [item.id, item.name]));
 }
 

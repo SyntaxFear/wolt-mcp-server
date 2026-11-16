@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import type { Assortment, Item } from "../../src/api/endpoints/assortment.js";
 import { fetchAssortment } from "../../src/api/endpoints/assortment.js";
 import { createHttp } from "../../src/api/http.js";
-import { findItems, isTranslated, outline, textLines, toDish } from "../../src/domain/menu.js";
+import { findItemsByIds, isTranslated, listItems, outline, textLines, toDish } from "../../src/domain/menu.js";
 import { fakeFetch, fixture } from "../helpers.js";
 
 const full = await fetchAssortment(
@@ -20,45 +20,72 @@ const partial: Assortment = {
   available_languages: [],
 };
 
-describe("findItems on a full menu", () => {
-  it("filters by category", async () => {
-    expect((await findItems(noHttp, "x", full, { category: "menucategory-1" }, "en")).items).toHaveLength(5);
+describe("a full menu", () => {
+  it("lists a category page by page", async () => {
+    const page = await listItems(noHttp, "x", full, { category: "menucategory-1" }, "en", undefined, 3);
+    expect(page.items).toHaveLength(3);
+    expect(page).toMatchObject({ total: 5, shown: "1-3 of 5", next_cursor: "3" });
   });
 
-  it("filters by ids and by text", async () => {
+  it("searches by text and finds by id", async () => {
     const first = full.items[0];
-    expect((await findItems(noHttp, "x", full, { itemIds: [first.id] }, "en")).items).toEqual([first]);
-    const hits = await findItems(noHttp, "x", full, { query: first.name.slice(0, 4).toUpperCase() }, "en");
+    expect((await findItemsByIds(noHttp, "x", full, [first.id], "en")).items).toEqual([first]);
+    const hits = await listItems(noHttp, "x", full, { query: first.name.slice(0, 4).toUpperCase() }, "en");
     expect(hits.items).toContainEqual(first);
   });
 
   it("rejects an unknown category", async () => {
-    await expect(findItems(noHttp, "x", full, { category: "nope" }, "en")).rejects.toMatchObject({ code: "NOT_FOUND" });
+    await expect(listItems(noHttp, "x", full, { category: "nope" }, "en")).rejects.toMatchObject({ code: "NOT_FOUND" });
   });
 });
 
-describe("findItems on a partial menu", () => {
-  const entry = { id: "a", name: "Milk", price: 595 };
-  const fetch = fakeFetch({
-    "/assortment/categories/slug/dairy": { items: [entry], options: [] },
-    "/assortment/items/search": { items: [entry], options: [] },
-    "/assortment/items": { items: [entry], options: [] },
-  });
-  const http = createHttp({ fetch });
+describe("a partial menu (large shop)", () => {
+  const product = (id: string) => ({ id, name: id, price: 595 });
+  const routes = {
+    "/assortment/categories/slug/dairy": { items: [product("a"), product("b"), product("c")], options: [] },
+    "/assortment/categories/slug/groceries": { items: [], options: [] },
+    "/assortment/items/search": { items: [product("a")], options: [] },
+    "/assortment/items": { items: [product("b"), product("a")], options: [] },
+  };
+  const shop: Assortment = {
+    ...partial,
+    categories: [
+      ...partial.categories,
+      {
+        id: "2",
+        name: "Groceries",
+        slug: "groceries",
+        item_ids: [],
+        subcategories: [{ id: "3", name: "Dairy", slug: "dairy", item_ids: [] }],
+      },
+    ],
+  };
 
-  it("uses the category, search and items endpoints", async () => {
-    await findItems(http, "shop", partial, { category: "dairy" }, "en");
-    await findItems(http, "shop", partial, { query: "milk" }, "en");
-    await findItems(http, "shop", partial, { itemIds: ["a"] }, "en");
+  it("pages the products of a category", async () => {
+    const http = createHttp({ fetch: fakeFetch(routes) });
+    const page = await listItems(http, "shop", shop, { category: "dairy" }, "en", undefined, 2);
+    expect(page).toMatchObject({ total: 3, shown: "1-2 of 3", next_cursor: "2" });
+    expect(page.items.map((item) => item.id)).toEqual(["a", "b"]);
+  });
+
+  it("points to subcategories when a category only groups others", async () => {
+    const run = listItems(createHttp({ fetch: fakeFetch(routes) }), "shop", shop, { category: "groceries" }, "en");
+    await expect(run).rejects.toMatchObject({ code: "INVALID_INPUT", nextStep: expect.stringContaining("dairy") });
+  });
+
+  it("searches the whole catalogue and loads items by id", async () => {
+    const fetch = fakeFetch(routes);
+    const http = createHttp({ fetch });
+    expect((await listItems(http, "shop", shop, { query: "milk" }, "en")).items).toHaveLength(1);
+    expect((await findItemsByIds(http, "shop", shop, ["a"], "en")).items).toHaveLength(2);
     expect(fetch.calls.map((call) => new URL(call.url).pathname.split("/assortment")[1])).toEqual([
-      "/categories/slug/dairy",
       "/items/search",
       "/items",
     ]);
   });
 
   it("refuses to list a whole catalogue", async () => {
-    await expect(findItems(http, "shop", partial, {}, "en")).rejects.toMatchObject({ code: "INVALID_INPUT" });
+    await expect(listItems(noHttp, "shop", shop, {}, "en")).rejects.toMatchObject({ code: "INVALID_INPUT" });
   });
 });
 

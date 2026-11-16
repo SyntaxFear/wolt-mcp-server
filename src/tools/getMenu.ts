@@ -1,6 +1,5 @@
 import { z } from "zod";
-import { findItems, outline } from "../domain/menu.js";
-import { paginate } from "../domain/pagination.js";
+import { listItems, outline } from "../domain/menu.js";
 import { DishView, PreferencesView, pageShape, pagingInput } from "../format/views.js";
 import { attachPictures, THUMBNAIL_WIDTH } from "../media/images.js";
 import { defineTool, READ_WOLT } from "./defineTool.js";
@@ -45,9 +44,17 @@ export const getMenu = defineTool({
     const header = { ...venueHeader(menu), preferences };
     if (!category && !query) return { data: { ...header, categories: outline(menu.assortment) } };
 
-    const found = await findItems(context.http, slug, menu.assortment, { category, query }, menu.language);
-    const { items, ...paging } = paginate(found.items, cursor, limit);
-    const dishes = await toDishes(context, slug, menu, items, found.options, false);
+    const filter = { category, query };
+    const { items, options, ...paging } = await listItems(
+      context.http,
+      slug,
+      menu.assortment,
+      filter,
+      menu.language,
+      cursor,
+      limit,
+    );
+    const dishes = await toDishes(context, slug, menu, items, options, false);
     const pictured = await attachPictures(dishes, THUMBNAIL_WIDTH, imageMode === "always", context.fetchImage);
     return { data: { ...header, dishes: pictured.views, ...paging }, images: pictured.images };
   },

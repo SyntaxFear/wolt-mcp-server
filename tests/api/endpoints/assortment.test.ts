@@ -29,11 +29,12 @@ it("reads a partial shop menu (categories only)", async () => {
   expect(menu.categories.length).toBeGreaterThan(5);
 });
 
-it("follows page tokens for category items", async () => {
+it("collects a shop category's products across pages without duplicates", async () => {
   let page = 0;
   const pages = [
-    { items: [item("a")], options: [], metadata: { next_page_token: "t2" } },
-    { items: [item("b")], options: [], metadata: { next_page_token: null } },
+    { items: [], options: [], metadata: { next_page_token: "t2" } },
+    { items: [item("a"), item("b")], options: [], metadata: { next_page_token: "t3" } },
+    { items: [item("b"), item("c")], options: [], metadata: { next_page_token: null } },
   ];
   const urls: string[] = [];
   const fetch = (async (input: URL) => {
@@ -41,9 +42,15 @@ it("follows page tokens for category items", async () => {
     return new Response(JSON.stringify(pages[page++]));
   }) as unknown as typeof globalThis.fetch;
   const found = await fetchCategoryItems(createHttp({ fetch }), "shop", "dairy", "en");
-  expect(found.items.map((entry) => entry.id)).toEqual(["a", "b"]);
+  expect(found.items.map((entry) => entry.id)).toEqual(["a", "b", "c"]);
   expect(urls[0]).not.toContain("page_token");
-  expect(urls[1]).toContain("page_token=t2");
+  expect(urls[2]).toContain("page_token=t3");
+});
+
+it("reads a real shop category page", async () => {
+  const fetch = fakeFetch({ "/categories/slug/": fixture("assortment-category-retail") });
+  const found = await fetchCategoryItems(createHttp({ fetch }), "spar-chitaia", "x", "en");
+  expect(found.items).toHaveLength(2);
 });
 
 it("searches inside a venue and loads items by id", async () => {

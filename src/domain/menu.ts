@@ -11,12 +11,14 @@ import type { WoltHttp } from "../api/http.js";
 import { WoltError } from "../errors.js";
 import type { Dish } from "../format/views.js";
 import { money } from "./money.js";
+import { type Page, paginate } from "./pagination.js";
 
-export interface MenuQuery {
+export interface MenuFilter {
   category?: string;
   query?: string;
-  itemIds?: string[];
 }
+
+export type ItemsPage = Items & Omit<Page<Item>, "items">;
 
 export interface CategoryOutline {
   slug: string;
@@ -57,39 +59,72 @@ function categoryItemIds(assortment: Assortment, slug: string): string[] {
   );
 }
 
-function findLocally(assortment: Assortment, query: MenuQuery): Items {
+function filterLocally(assortment: Assortment, filter: MenuFilter): Items {
   let items = assortment.items;
-  if (query.itemIds) {
-    const wanted = new Set(query.itemIds);
-    items = items.filter((item) => wanted.has(item.id));
-  }
-  if (query.category) {
-    const inCategory = new Set(categoryItemIds(assortment, query.category));
+  if (filter.category) {
+    const inCategory = new Set(categoryItemIds(assortment, filter.category));
     items = items.filter((item) => inCategory.has(item.id));
   }
-  if (query.query) {
-    const needle = query.query.toLowerCase();
+  if (filter.query) {
+    const needle = filter.query.toLowerCase();
     items = items.filter((item) => `${item.name} ${item.description ?? ""}`.toLowerCase().includes(needle));
   }
   return { items, options: assortment.options };
 }
 
-export async function findItems(
+function pageOf(found: Items, cursor: string | undefined, limit: number | undefined): ItemsPage {
+  const { items, ...paging } = paginate(found.items, cursor, limit);
+  return { items, options: found.options, ...paging };
+}
+
+async function categoryItems(
   http: WoltHttp,
   slug: string,
   assortment: Assortment,
-  query: MenuQuery,
+  category: string,
   language: string,
 ): Promise<Items> {
-  if (isFull(assortment)) return findLocally(assortment, query);
-  if (query.itemIds) return fetchItemsByIds(http, slug, query.itemIds, language);
-  if (query.query) return searchAssortment(http, slug, query.query, language);
-  if (query.category) return fetchCategoryItems(http, slug, query.category, language);
+  const found = await fetchCategoryItems(http, slug, category, language);
+  const children = assortment.categories.find((entry) => entry.slug === category)?.subcategories ?? [];
+  if (found.items.length > 0 || children.length === 0) return found;
+  throw new WoltError(
+    "INVALID_INPUT",
+    `"${category}" only groups other categories and has no products of its own.`,
+    `Call wolt_get_menu with one of its subcategories: ${children.map((child) => child.slug).join(", ")}.`,
+  );
+}
+
+export async function listItems(
+  http: WoltHttp,
+  slug: string,
+  assortment: Assortment,
+  filter: MenuFilter,
+  language: string,
+  cursor?: string,
+  limit?: number,
+): Promise<ItemsPage> {
+  if (isFull(assortment)) return pageOf(filterLocally(assortment, filter), cursor, limit);
+  if (filter.query) return pageOf(await searchAssortment(http, slug, filter.query, language), cursor, limit);
+  if (filter.category) {
+    return pageOf(await categoryItems(http, slug, assortment, filter.category, language), cursor, limit);
+  }
   throw new WoltError(
     "INVALID_INPUT",
     "This venue's catalogue is too large to list at once.",
     "Pass a category or a query.",
   );
+}
+
+export async function findItemsByIds(
+  http: WoltHttp,
+  slug: string,
+  assortment: Assortment,
+  itemIds: string[],
+  language: string,
+): Promise<Items> {
+  if (!isFull(assortment)) return fetchItemsByIds(http, slug, itemIds, language);
+  const wanted = new Set(itemIds);
+  return { items: assortment.items.filter((item) => wanted.has(item.id)), options: assortment.options };
 }
 
 function labelOf(value: unknown): string[] {
