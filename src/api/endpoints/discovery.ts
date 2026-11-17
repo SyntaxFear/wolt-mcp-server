@@ -45,6 +45,7 @@ const DishHitSchema = z.object({
       price: z.number(),
       currency: z.string(),
       country: z.string().nullish(),
+      city_slug: z.string().nullish(),
       image: Image.nullish(),
       venue_slug: z.string(),
       venue_name: z.string(),

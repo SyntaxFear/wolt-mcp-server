@@ -23,7 +23,8 @@ const ORDER: Record<Exclude<DishSort, "relevance">, (a: DishHit, b: DishHit) => 
 };
 
 function toDishHit(hit: DishHit, language: string): DishHitSummary {
-  const url = itemUrl(venueUrl(hit.venue_slug, hit.country, language), hit.id);
+  const venuePage = venueUrl(hit.venue_slug, hit.country, language, hit.city_slug);
+  const url = hit.city_slug ? itemUrl(venuePage, hit.id) : venuePage;
   return {
     item_id: hit.id,
     name: hit.name,

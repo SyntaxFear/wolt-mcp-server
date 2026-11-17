@@ -46,6 +46,7 @@ it("searches dishes, sorted by price, with pictures", async () => {
   const prices = data(result).dishes.map((dish: Data) => dish.price.amount);
   expect(prices).toEqual([...prices].sort((a, b) => a - b));
   expect(data(result).dishes[0].picture).toBe(1);
+  expect(data(result).dishes[0].url).toMatch(/^https:\/\/wolt\.com\/en\/geo\/tbilisi\/venue\/[^/]+\/itemid-[0-9a-f]+$/);
   expect(images(result).length).toBeGreaterThan(0);
 });
 
