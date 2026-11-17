@@ -26,8 +26,11 @@ export async function setup(): Promise<void> {
     }
 
     const config = createConfigStore();
-    const language = await ask("\nLanguage for menus (en, ka, ru, de, fr ...)", config.read().language);
-    config.update({ language });
+    const language = await ask("\nYour language (en, ka, ru, de, fr ...)", config.read().language);
+    const translate = await confirm(
+      "Menus come in each venue's own language, which avoids Wolt's machine translation. Keep it that way?",
+    );
+    config.update({ language, menuLanguage: translate ? "original" : "interface" });
 
     console.log('\nDone. Restart the app, then ask it: "What can I order on Wolt near <your address>?"');
     console.log("Check the connection any time with: npx wolt-mcp-server doctor");

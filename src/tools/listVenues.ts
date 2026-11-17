@@ -6,6 +6,8 @@ import { paginate } from "../domain/pagination.js";
 import { isOpen, selectVenues, toVenueSummary } from "../domain/venues.js";
 import { pageShape, pagingInput, VenueView } from "../format/views.js";
 import { defineTool, READ_WOLT } from "./defineTool.js";
+import { pictureSheetShape } from "./pictureSheet.js";
+import { picturedVenues } from "./venuePictures.js";
 
 const PAGE_OF = { restaurants: "restaurants", shops: "retail" } as const;
 const OPENING_NEXT = 5;
@@ -42,10 +44,12 @@ export const listVenues = defineTool({
       })
       .optional()
       .describe("Only with open_now, on the first page"),
+    ...pictureSheetShape,
   },
   annotations: READ_WOLT,
   cards: true,
-  async handler(args, { http, config }) {
+  async handler(args, context) {
+    const { http, config } = context;
     const location = requireLocation(config);
     const page = PAGE_OF[args.kind ?? "restaurants"];
     const { language } = config.read();
@@ -73,9 +77,13 @@ export const listVenues = defineTool({
         return opens ? [{ slug: venue.slug, name: venue.name, opens }] : [];
       })
       .sort((a, b) => a.opens.localeCompare(b.opens));
+    const summaries = items.map((card) => toVenueSummary(card, location, language, live.get(card.venue.slug)));
+    const pictured = await picturedVenues(context, `Wolt near ${location.label}`, summaries);
     return {
+      images: pictured.images,
       data: {
-        venues: items.map((card) => toVenueSummary(card, location, language, live.get(card.venue.slug))),
+        venues: pictured.venues,
+        ...pictured.sheet,
         ...paging,
         ...(firstPage && { available_categories: categories }),
         ...(closedCards.length > 0 && { closed: { count: closedCards.length, opening_next: openingNext } }),

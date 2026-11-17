@@ -6,7 +6,7 @@ Unofficial MCP server for Wolt. Lets an AI agent (Claude Code, Codex, Cursor, Cl
 
 ## Status
 
-Browsing works and needs no login. Cart, checkout and ordering are in development.
+Browsing works and needs no login. Every venue and dish comes with a link that opens it in Wolt, where you order. Cart, checkout and ordering from the agent are in development.
 
 ## Install
 
@@ -27,13 +27,17 @@ npx wolt-mcp-server doctor
 | Tool | What it does |
 |---|---|
 | `wolt_search_address` | Find addresses matching what you typed |
-| `wolt_set_location` | Set where food is delivered |
-| `wolt_list_venues` | Nearby restaurants or shops, with filters and sorting |
+| `wolt_set_location` | Set where food is delivered: a pasted map link, a saved place such as Home, a picked address, or coordinates |
+| `wolt_list_venues` | Nearby restaurants or shops with distance, delivery fee, minimum order, filters and sorting; says how many are closed and which open next |
 | `wolt_search` | Find a venue, or compare one dish across venues |
 | `wolt_get_venue` | Open hours, delivery time, minimum order |
-| `wolt_get_menu` | Menu categories and dishes, 20 per page, with pictures |
+| `wolt_get_menu` | A small menu whole; a large one by category or search, 20 dishes per page. With pictures |
 | `wolt_get_item` | One dish in full: options, extras, large picture |
 | `wolt_preferences` | Allergies, diets and dislikes, kept on your computer |
+
+## Pictures
+
+Apps that support MCP Apps draw venue and dish cards in the chat; a tap opens the venue or dish in Wolt. Other apps get `picture_sheet` in the answer: the path of one image file with every picture, name and price, which the agent can show you.
 
 ## Settings
 
@@ -41,7 +45,9 @@ npx wolt-mcp-server doctor
 
 | Key | Values | Default |
 |---|---|---|
-| `language` | `en`, `ka`, `ru`, ... | `en` |
+| `language` | `en`, `ka`, `ru`, ... Language of venue lists and of Wolt's own wording | `en` |
+| `menuLanguage` | `original` (the venue's own language) or `interface` (your `language`, machine-translated by Wolt when the venue has no such menu) | `original` |
+| `places` | Saved places, written by `wolt_set_location` | none |
 | `images` | `always`, `on-request`, `links` | `always` |
 
 ## Privacy

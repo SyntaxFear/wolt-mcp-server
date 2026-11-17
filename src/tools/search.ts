@@ -10,6 +10,7 @@ import { type DishHitSummary, DishHitView, pageShape, pagingInput, VenueView } f
 import { attachPictures, THUMBNAIL_WIDTH } from "../media/images.js";
 import { defineTool, READ_WOLT } from "./defineTool.js";
 import { pictureSheet, pictureSheetShape } from "./pictureSheet.js";
+import { picturedVenues } from "./venuePictures.js";
 
 type DishSort = "relevance" | "price" | "rating" | "delivery_time";
 
@@ -41,7 +42,7 @@ export const search = defineTool({
   name: "wolt_search",
   title: "Search Wolt",
   description:
-    'Search near the current location. target "venues" finds restaurants and shops by name or cuisine. target "dishes" finds one dish across many venues; sort it by price, rating or delivery_time to compare where to order it. Dish results come with pictures. Needs a location (wolt_set_location).',
+    'Search near the current location. target "venues" finds restaurants and shops by name or cuisine. target "dishes" finds one dish across many venues; sort it by price, rating or delivery_time to compare where to order it. Results come with pictures. Needs a location (wolt_set_location).',
   input: {
     query: z.string().min(2).describe("What the user is looking for, for example khinkali"),
     target: z.enum(["venues", "dishes"]),
@@ -70,8 +71,9 @@ export const search = defineTool({
         items.map((card) => card.venue.slug),
         location,
       );
-      const venues = items.map((card) => toVenueSummary(card, location, language, live.get(card.venue.slug)));
-      return { data: { venues, ...paging } };
+      const summaries = items.map((card) => toVenueSummary(card, location, language, live.get(card.venue.slug)));
+      const pictured = await picturedVenues(context, `Wolt: ${query}`, summaries);
+      return { data: { venues: pictured.venues, ...paging, ...pictured.sheet }, images: pictured.images };
     }
     const hits = await searchDishes(http, query, location, language);
     const ordered = sort === "relevance" ? hits : [...hits].sort(ORDER[sort]);

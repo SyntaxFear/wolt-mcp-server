@@ -37,6 +37,7 @@ export const VenueView = z.object({
   promotions: z.array(z.string()),
   badges: z.array(z.string()),
   image: z.string().optional(),
+  picture: z.number().optional().describe("Position of this venue's picture among the attached images, starting at 1"),
   url: z.string().optional().describe("Opens this venue in Wolt. Give it to the user as a link."),
 });
 export type VenueSummary = z.infer<typeof VenueView>;

@@ -31,7 +31,7 @@ h1{font-size:17px;font-weight:600;margin:0 0 2px}
 .sub{color:var(--mute);font-size:13px;margin:0 0 10px}
 h2{font-size:14px;font-weight:600;margin:14px 0 8px;color:var(--mute)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
-.card{display:block;width:100%;padding:0;text-align:left;font:inherit;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.card{display:flex;flex-direction:column;justify-content:flex-start;width:100%;height:100%;padding:0;text-align:left;font:inherit;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
 button.card{cursor:pointer}
 button.card:hover,button.card:focus-visible{border-color:var(--accent);outline:none}
 .pic{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:var(--blank)}
@@ -121,7 +121,7 @@ button.card:hover,button.card:focus-visible{border-color:var(--accent);outline:n
     if (dish.available === false) node.classList.add("off");
     return node;
   }
-  function venueCard(venue) {
+  function venueCard(venue, pictures) {
     var facts = [];
     if (typeof venue.rating === "number") facts.push("★ " + venue.rating);
     if (venue.delivery_minutes) facts.push(venue.delivery_minutes + " min");
@@ -133,7 +133,7 @@ button.card:hover,button.card:focus-visible{border-color:var(--accent);outline:n
     if (venue.order_minimum) money.push(venue.order_minimum);
     var node = card(
       venue,
-      [],
+      pictures,
       [venue.description, facts.join(" · "), money.join(" · "), venue.status || (venue.open ? null : "Closed")],
       (venue.promotions || []).slice(0, 2),
     );
@@ -164,7 +164,7 @@ button.card:hover,button.card:focus-visible{border-color:var(--accent);outline:n
         root.appendChild(grid(section.dishes.map(function (dish) { return dishCard(dish, pictures); })));
       });
     } else if (data.venues && data.venues.length) {
-      root.appendChild(grid(data.venues.map(venueCard)));
+      root.appendChild(grid(data.venues.map(function (venue) { return venueCard(venue, pictures); })));
     } else if (data.categories && data.categories.length) {
       root.appendChild(grid(data.categories.map(function (category) {
         return card({ name: category.name }, [], [typeof category.dishes === "number" ? category.dishes + " dishes" : null], []);
