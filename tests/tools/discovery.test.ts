@@ -68,3 +68,42 @@ it("describes one venue with live status", async () => {
   });
   expect(venue.opening_hours[0]).toEqual({ day: "Monday", hours: "10:00–02:45" });
 });
+
+it("adds real distance, fee, minimum order and a Wolt link to each venue", async () => {
+  const routes = { "/v1/pages/restaurants": fixture("pages-restaurants"), "/dynamic/": fixture("venue-dynamic") };
+  const [venue] = data(await run(listVenues, { limit: 1 }, testContext(routes))).venues;
+  expect(venue).toMatchObject({
+    slug: "marge-dadiani-1",
+    delivery_fee: "GEL0.00",
+    order_minimum: "Min. order 12.00\u202fGEL",
+    status: "Open until 02:45",
+    url: "https://wolt.com/en/geo/venue/marge-dadiani-1",
+  });
+  expect(venue.distance_m).toBeGreaterThan(2000);
+  expect(venue.distance_m).toBeLessThan(4000);
+});
+
+it("still lists venues when their live details cannot be read", async () => {
+  const context = testContext({ "/v1/pages/restaurants": fixture("pages-restaurants") });
+  const [venue] = data(await run(listVenues, { limit: 1 }, context)).venues;
+  expect(venue.slug).toBe("marge-dadiani-1");
+  expect(venue.delivery_fee).toBeUndefined();
+});
+
+it("with open_now, counts the closed venues and says which open next", async () => {
+  const page = structuredClone(fixture("pages-restaurants")) as Data;
+  const cards = page.sections.flatMap((section: Data) => section.items ?? []).filter((item: Data) => item.venue);
+  cards[0].venue.online = false;
+  cards[1].venue.online = false;
+  const routes = { "/v1/pages/restaurants": page, "/dynamic/": fixture("venue-dynamic") };
+  const listed = data(await run(listVenues, { open_now: true, limit: 3 }, testContext(routes)));
+  expect(listed.total).toBe(28);
+  expect(listed.venues.every((venue: Data) => venue.open)).toBe(true);
+  expect(listed.closed.count).toBe(2);
+  expect(listed.closed.opening_next[0]).toMatchObject({
+    slug: cards[0].venue.slug,
+    opens: "2026-11-17T10:00:00+04:00",
+  });
+  const second = data(await run(listVenues, { open_now: true, limit: 3, cursor: "3" }, testContext(routes)));
+  expect(second.closed).toBeUndefined();
+});

@@ -17,10 +17,25 @@ const restaurant = {
 };
 const FIRST_ITEM = "036605f1fc74700e16f378e5";
 
-it("returns the category outline when no filter is given", async () => {
-  const menu = data(await run(getMenu, { venue: "marge-dadiani-1" }, testContext(restaurant)));
+it("returns a small menu whole: every dish with its section, picture and link", async () => {
+  const result = await run(getMenu, { venue: "marge-dadiani-1" }, testContext(restaurant));
+  const menu = data(result);
   expect(menu.venue).toMatchObject({ slug: "marge-dadiani-1", currency: "GEL" });
   expect(menu.categories[0]).toMatchObject({ slug: "menucategory-1", dishes: 5 });
+  expect(menu).toMatchObject({ total: 27, shown: "1-27 of 27" });
+  expect(menu.dishes).toHaveLength(27);
+  expect(menu.dishes[0].category).toBe(menu.categories[0].name);
+  expect(menu.dishes[0].url).toBe(
+    `https://wolt.com/ka/geo/tbilisi/restaurant/marge-dadiani-1/itemid-${menu.dishes[0].id}`,
+  );
+  expect(images(result).length).toBeGreaterThan(0);
+});
+
+it("returns only the category outline for a menu too large to send whole", async () => {
+  const large = structuredClone(fixture("assortment")) as Data;
+  large.items = Array.from({ length: 41 }, (_, index) => ({ ...large.items[0], id: `item-${index}` }));
+  const menu = data(await run(getMenu, { venue: "x" }, testContext({ ...restaurant, "/assortment": large })));
+  expect(menu.categories.length).toBeGreaterThan(0);
   expect(menu.dishes).toBeUndefined();
 });
 
@@ -73,9 +88,28 @@ it("adds original names when the menu is machine-translated", async () => {
   const original = structuredClone(translated);
   original.items[0].name = "ORIGINAL";
   const routes = { "/static": fixture("venue-static"), "language=en": translated, "language=ka": original };
-  const menu = data(await run(getMenu, { venue: "x", query: translated.items[0].name }, testContext(routes)));
+  const config = { location: { lat: 1, lon: 1, label: "x" }, menuLanguage: "interface" as const };
+  const menu = data(await run(getMenu, { venue: "x", query: translated.items[0].name }, testContext(routes, config)));
   expect(menu.machine_translated).toBe(true);
   expect(menu.dishes[0].original_name).toBe("ORIGINAL");
+});
+
+it("shows the menu in the venue's own language by default", async () => {
+  const translated = structuredClone(fixture("assortment")) as Data;
+  translated.selected_language = "en";
+  translated.primary_language = "ka";
+  translated.available_languages = [
+    { language: "en", autotranslated: true },
+    { language: "ka", autotranslated: false },
+  ];
+  const original = structuredClone(fixture("assortment")) as Data;
+  original.available_languages = translated.available_languages;
+  original.items[0].name = "ORIGINAL";
+  const routes = { "/static": fixture("venue-static"), "language=en": translated, "language=ka": original };
+  const menu = data(await run(getMenu, { venue: "x" }, testContext(routes)));
+  expect(menu).toMatchObject({ language: "ka", machine_translated: false });
+  expect(menu.dishes.map((dish: Data) => dish.name)).toContain("ORIGINAL");
+  expect(menu.dishes[0].original_name).toBeUndefined();
 });
 
 it("reads and updates food preferences", async () => {

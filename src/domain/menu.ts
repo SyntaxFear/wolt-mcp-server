@@ -29,7 +29,32 @@ export interface CategoryOutline {
 
 const TEXT_KEYS = new Set(["title", "text", "label", "value", "description", "body", "name"]);
 
+export const WHOLE_MENU_MAX = 40;
+
 const isFull = (assortment: Assortment): boolean => assortment.loading_strategy === "full";
+
+/** A menu small enough to send in one answer: every dish, in menu order, with its section name. */
+export function wholeMenu(assortment: Assortment): { item: Item; category: string }[] | undefined {
+  if (!isFull(assortment) || assortment.items.length === 0 || assortment.items.length > WHOLE_MENU_MAX) {
+    return undefined;
+  }
+  const byId = new Map(assortment.items.map((item) => [item.id, item]));
+  const seen = new Set<string>();
+  const ordered: { item: Item; category: string }[] = [];
+  const take = (itemIds: string[], category: string): void => {
+    for (const id of itemIds) {
+      const item = byId.get(id);
+      if (!item || seen.has(id)) continue;
+      seen.add(id);
+      ordered.push({ item, category });
+    }
+  };
+  for (const category of assortment.categories) {
+    take(category.item_ids, category.name);
+    for (const sub of category.subcategories) take(sub.item_ids, sub.name);
+  }
+  return ordered.length > 0 ? ordered : undefined;
+}
 
 export function isTranslated(assortment: Assortment): boolean {
   const shown = assortment.available_languages.find((entry) => entry.language === assortment.selected_language);

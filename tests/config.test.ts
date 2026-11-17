@@ -11,6 +11,8 @@ describe("config store", () => {
   it("returns defaults when no file exists", () => {
     expect(createConfigStore(tempDir()).read()).toEqual({
       language: "en",
+      menuLanguage: "original",
+      places: {},
       images: "always",
       preferences: { allergies: [], diets: [], dislikes: [] },
     });

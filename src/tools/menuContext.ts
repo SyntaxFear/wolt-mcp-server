@@ -1,5 +1,6 @@
 import { type Assortment, fetchAssortment, type Item, type Option } from "../api/endpoints/assortment.js";
 import { fetchVenueStatic, type VenueStatic } from "../api/endpoints/venue.js";
+import { itemUrl } from "../domain/links.js";
 import { findItemsByIds, isTranslated, toDish } from "../domain/menu.js";
 import { warningsFor } from "../domain/preferences.js";
 import type { Dish } from "../format/views.js";
@@ -13,12 +14,15 @@ export interface LoadedMenu {
 }
 
 export async function loadMenu({ http, config }: ToolContext, slug: string): Promise<LoadedMenu> {
-  const { language } = config.read();
-  const [{ venue }, assortment] = await Promise.all([
+  const { language, menuLanguage } = config.read();
+  const [{ venue }, shown] = await Promise.all([
     fetchVenueStatic(http, slug, language),
     fetchAssortment(http, slug, language),
   ]);
-  return { venue, assortment, language, translated: isTranslated(assortment) };
+  const own = shown.primary_language;
+  const wantsOwn = menuLanguage === "original" && own && own !== (shown.selected_language ?? language);
+  const assortment = wantsOwn ? await fetchAssortment(http, slug, own) : shown;
+  return { venue, assortment, language: wantsOwn ? own : language, translated: isTranslated(assortment) };
 }
 
 async function originalNames(
@@ -53,8 +57,10 @@ export async function toDishes(
   return items.map((item) => {
     const dish = toDish(item, optionsById, menu.venue.currency, detail);
     const original = originals.get(item.id);
+    const url = itemUrl(menu.venue.share_url, item.id);
     return {
       ...dish,
+      ...(url && { url }),
       ...(original && original !== dish.name && { original_name: original }),
       warnings: warningsFor(`${dish.name} ${dish.description ?? ""} ${dish.tags.join(" ")}`, preferences),
     };

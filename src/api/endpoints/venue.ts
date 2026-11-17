@@ -39,6 +39,18 @@ const VenueDynamicSchema = z.object({
     delivery_configs: z
       .array(z.object({ method: z.string(), estimate: z.object({ label: z.string() }).nullish() }))
       .nullish(),
+    header: z
+      .object({
+        delivery_method_statuses: z
+          .array(
+            z.object({
+              delivery_method: z.string(),
+              metadata: z.array(z.object({ meaning: text, value: text })).default([]),
+            }),
+          )
+          .default([]),
+      })
+      .nullish(),
   }),
 });
 export type VenueDynamic = z.infer<typeof VenueDynamicSchema>;

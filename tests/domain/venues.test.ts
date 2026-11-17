@@ -26,8 +26,8 @@ describe("selectVenues", () => {
     sort: Parameters<typeof selectVenues>[2] = "recommended",
   ) => selectVenues(cards, filter, sort).map((entry) => entry.venue.slug);
 
-  it("keeps Wolt's order by default", () => {
-    expect(slugs({})).toEqual(["far-good", "near-ok", "closed", "deal"]);
+  it("keeps Wolt's order by default, open venues first", () => {
+    expect(slugs({})).toEqual(["far-good", "near-ok", "deal", "closed"]);
   });
 
   it("filters by category, open state, rating, price and deals", () => {
@@ -37,23 +37,26 @@ describe("selectVenues", () => {
     expect(slugs({ dealsOnly: true })).toEqual(["deal"]);
   });
 
-  it("sorts, putting venues without a value last", () => {
-    expect(slugs({}, "distance")).toEqual(["closed", "near-ok", "far-good", "deal"]);
+  it("sorts open venues first, then by rank, putting venues without one last", () => {
+    expect(slugs({}, "distance")).toEqual(["near-ok", "far-good", "deal", "closed"]);
     expect(slugs({}, "delivery_time").slice(0, 2)).toEqual(["near-ok", "far-good"]);
   });
 
-  it("sorts by Wolt's rating key, highest first", () => {
-    const rated = [card("low", {}, { rating: 100 }), card("high", {}, { rating: 500 }), card("none")];
-    expect(selectVenues(rated, {}, "rating").map((entry) => entry.venue.slug)).toEqual(["high", "low", "none"]);
+  it("treats Wolt's sort values as ranks: the lowest rating rank is the best rated", () => {
+    const rated = [card("worse", {}, { rating: 500 }), card("best", {}, { rating: 19 }), card("none")];
+    expect(selectVenues(rated, {}, "rating").map((entry) => entry.venue.slug)).toEqual(["best", "worse", "none"]);
   });
 });
 
 describe("toVenueSummary", () => {
   it("builds a compact view", () => {
-    const summary = toVenueSummary({
+    const from = { lat: 41.7151, lon: 44.8271 };
+    const card174 = {
       ...card(
         "x",
         {
+          country: "GEO",
+          location: [44.8271, 41.7241],
           rating: { score: 8.8, volume: 12 },
           estimate_range: "30-40",
           promotions: [{ text: "Free delivery" }],
@@ -63,19 +66,23 @@ describe("toVenueSummary", () => {
         ["kebab"],
       ),
       image: { url: "https://imageproxy.wolt.com/assets/1" },
-    });
-    expect(summary).toEqual({
+    };
+    const live = { delivery_fee: "GEL0.00", order_minimum: "Min. order 12.00 GEL" };
+    expect(toVenueSummary(card174, from, "en", live)).toEqual({
       slug: "x",
       name: "x",
       open: true,
       rating: 8.8,
       rating_count: 12,
       delivery_minutes: "30-40",
-      distance_m: 174,
+      distance_m: 1001,
       categories: ["kebab"],
       promotions: ["Free delivery"],
       badges: ["New"],
       image: "https://imageproxy.wolt.com/assets/1",
+      url: "https://wolt.com/en/geo/venue/x",
+      delivery_fee: "GEL0.00",
+      order_minimum: "Min. order 12.00 GEL",
     });
   });
 });

@@ -38,5 +38,5 @@ export function testContext(
   const fetch = fakeFetch(routes);
   const store = createConfigStore(mkdtempSync(join(tmpdir(), "wolt-mcp-")));
   store.update(config);
-  return { http: createHttp({ fetch }), config: store, fetchImage: picture, fetch };
+  return { http: createHttp({ fetch }), config: store, fetchImage: picture, fetchLink: fetch, fetch };
 }

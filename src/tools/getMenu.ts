@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { listItems, outline } from "../domain/menu.js";
+import { listItems, outline, WHOLE_MENU_MAX, wholeMenu } from "../domain/menu.js";
 import { DishView, PreferencesView, pageShape, pagingInput } from "../format/views.js";
 import { attachPictures, THUMBNAIL_WIDTH } from "../media/images.js";
 import { defineTool, READ_WOLT } from "./defineTool.js";
@@ -16,8 +16,7 @@ export const menuHeaderShape = {
 export const getMenu = defineTool({
   name: "wolt_get_menu",
   title: "Venue menu",
-  description:
-    "Read a venue's menu. Call with only venue to get the list of categories. Then call with category (a category slug) or query (text search inside this venue, the way to browse large shops) to get dishes: at most 20 per answer, each with a small picture, and a count of how many more exist. Fetch the next page only when the user asks for more. For one dish's sizes, extras and other choices, call wolt_get_item.",
+  description: `Read a venue's menu. Call with only venue: a menu of up to ${WHOLE_MENU_MAX} dishes comes back whole, every dish with its section, picture and link. A larger menu comes back as a list of categories; then call with category (a category slug) or query (text search inside this venue, the way to browse large shops) to get dishes: at most 20 per answer, each with a small picture, and a count of how many more exist. Fetch the next page only when the user asks for more. For one dish's sizes, extras and other choices, call wolt_get_item.`,
   input: {
     venue: z.string().describe("Venue slug"),
     category: z.string().optional().describe("Category slug from the category list"),
@@ -42,7 +41,26 @@ export const getMenu = defineTool({
     const menu = await loadMenu(context, slug);
     const { preferences, images: imageMode } = context.config.read();
     const header = { ...venueHeader(menu), preferences };
-    if (!category && !query) return { data: { ...header, categories: outline(menu.assortment) } };
+    if (!category && !query) {
+      const categories = outline(menu.assortment);
+      const whole = wholeMenu(menu.assortment);
+      if (!whole) return { data: { ...header, categories } };
+      const dishes = await toDishes(
+        context,
+        slug,
+        menu,
+        whole.map((entry) => entry.item),
+        menu.assortment.options,
+        false,
+      );
+      const sectioned = dishes.map((dish, index) => ({ ...dish, category: whole[index].category }));
+      const pictured = await attachPictures(sectioned, THUMBNAIL_WIDTH, imageMode === "always", context.fetchImage);
+      const total = sectioned.length;
+      return {
+        data: { ...header, categories, dishes: pictured.views, total, shown: `1-${total} of ${total}` },
+        images: pictured.images,
+      };
+    }
 
     const filter = { category, query };
     const { items, options, ...paging } = await listItems(

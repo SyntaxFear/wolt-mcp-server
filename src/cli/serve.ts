@@ -5,7 +5,7 @@ import { createServer } from "../server.js";
 import type { ToolContext } from "../tools/defineTool.js";
 
 export function createContext(): ToolContext {
-  return { http: createHttp(), config: createConfigStore(), fetchImage: fetch };
+  return { http: createHttp(), config: createConfigStore(), fetchImage: fetch, fetchLink: fetch };
 }
 
 export async function serve(): Promise<void> {

@@ -1,5 +1,7 @@
 import { z } from "zod";
 import { type DishHit, searchDishes, searchVenues } from "../api/endpoints/discovery.js";
+import { itemUrl, venueUrl } from "../domain/links.js";
+import { liveInfoFor } from "../domain/live.js";
 import { requireLocation } from "../domain/location.js";
 import { money } from "../domain/money.js";
 import { paginate } from "../domain/pagination.js";
@@ -18,7 +20,8 @@ const ORDER: Record<Exclude<DishSort, "relevance">, (a: DishHit, b: DishHit) => 
   delivery_time: (a, b) => minutes(a) - minutes(b),
 };
 
-function toDishHit(hit: DishHit): DishHitSummary {
+function toDishHit(hit: DishHit, language: string): DishHitSummary {
+  const url = itemUrl(venueUrl(hit.venue_slug, hit.country, language), hit.id);
   return {
     item_id: hit.id,
     name: hit.name,
@@ -28,6 +31,7 @@ function toDishHit(hit: DishHit): DishHitSummary {
     venue_name: hit.venue_name,
     ...(hit.venue_rating && { venue_rating: hit.venue_rating.score }),
     ...(hit.estimate_range && { delivery_minutes: hit.estimate_range }),
+    ...(url && { url }),
     ...(hit.image && { image: hit.image.url }),
   };
 }
@@ -57,12 +61,23 @@ export const search = defineTool({
     const { language, images: imageMode } = config.read();
     if (target === "venues") {
       const { items, ...paging } = paginate(await searchVenues(http, query, location, language), cursor, limit);
-      return { data: { venues: items.map(toVenueSummary), ...paging } };
+      const live = await liveInfoFor(
+        http,
+        items.map((card) => card.venue.slug),
+        location,
+      );
+      const venues = items.map((card) => toVenueSummary(card, location, language, live.get(card.venue.slug)));
+      return { data: { venues, ...paging } };
     }
     const hits = await searchDishes(http, query, location, language);
     const ordered = sort === "relevance" ? hits : [...hits].sort(ORDER[sort]);
     const { items, ...paging } = paginate(ordered, cursor, limit);
-    const pictured = await attachPictures(items.map(toDishHit), THUMBNAIL_WIDTH, imageMode === "always", fetchImage);
+    const pictured = await attachPictures(
+      items.map((hit) => toDishHit(hit, language)),
+      THUMBNAIL_WIDTH,
+      imageMode === "always",
+      fetchImage,
+    );
     return { data: { dishes: pictured.views, ...paging }, images: pictured.images };
   },
 });

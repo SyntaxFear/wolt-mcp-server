@@ -5,9 +5,13 @@ import { configDir } from "./platform/paths.js";
 
 const terms = z.array(z.string());
 
+const place = z.object({ lat: z.number(), lon: z.number(), label: z.string() });
+
 export const ConfigSchema = z.object({
   language: z.string().default("en"),
-  location: z.object({ lat: z.number(), lon: z.number(), label: z.string() }).optional(),
+  menuLanguage: z.enum(["original", "interface"]).default("original"),
+  location: place.optional(),
+  places: z.record(z.string(), place).default({}),
   images: z.enum(["always", "on-request", "links"]).default("always"),
   preferences: z
     .object({ allergies: terms, diets: terms, dislikes: terms })

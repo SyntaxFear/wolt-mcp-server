@@ -8,6 +8,8 @@ export interface ToolContext {
   http: WoltHttp;
   config: ConfigStore;
   fetchImage: typeof fetch;
+  /** Used only to follow short map links to their full form. */
+  fetchLink: typeof fetch;
 }
 
 export interface ToolResult<Output extends z.ZodRawShape> {
