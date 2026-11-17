@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 import { doctor } from "./doctor.js";
+import { login, logout, status } from "./login.js";
 import { serve } from "./serve.js";
 import { setup } from "./setup.js";
 
-const commands: Record<string, () => Promise<void>> = { serve, setup, doctor };
+const commands: Record<string, () => Promise<void>> = { serve, setup, doctor, login, logout, status };
 const name = process.argv[2] ?? "serve";
 const command = commands[name];
 

@@ -26,6 +26,17 @@ Agreed with the user in a question-by-question interview after a real browsing s
 - `https://wolt.com/{lang}/{country}/venue/{slug}` redirects to the venue page; `{share_url}/itemid-{id}` to a dish.
 - The chat view of Claude desktop blocks remote images, so pictures must travel inside the tool result.
 
+## Done on this branch
+
+- Browse fixes: real distance, fee, minimum order, status, next opening, open-first order, closed summary,
+  whole menus up to 40 dishes, original-language menus, map links, saved places, Wolt links.
+- Sorting by rating ran worst-first before (rank read as a score); fixed.
+- Card view (`ui://wolt/cards.html`, hand-written MCP Apps messages, no dependencies) and `picture_sheet`.
+  Checked in a browser against live data with a stand-in host; not yet seen inside Claude desktop itself.
+- Login: `login`, `logout`, `status`; session refresh. The refresh endpoint and its form encoding are confirmed
+  live (a bad token answers 401, error_code 126). The cookie name `__wrtoken`, its value format and the
+  refresh response fields are still from site code only: the first real login confirms or corrects them.
+
 ## Blocked until the user is logged in
 
 Cart, checkout preview, payment methods, order history and tracking are known from Wolt's site code only. Their

@@ -35,6 +35,14 @@ npx wolt-mcp-server doctor
 | `wolt_get_item` | One dish in full: options, extras, large picture |
 | `wolt_preferences` | Allergies, diets and dislikes, kept on your computer |
 
+## Login (early)
+
+```bash
+npx wolt-mcp-server login
+```
+
+Opens Wolt's own login page in a separate browser window with an empty profile. You log in there yourself; the tool never sees your phone code or email link, and never reads your everyday browser. The session is kept in the macOS Keychain or the Linux system keyring (a user-only file where neither exists). `status` shows whether it works, `logout` removes it. Nothing uses the login yet: cart and ordering come next.
+
 ## Pictures
 
 Apps that support MCP Apps draw venue and dish cards in the chat; a tap opens the venue or dish in Wolt. Other apps get `picture_sheet` in the answer: the path of one image file with every picture, name and price, which the agent can show you.

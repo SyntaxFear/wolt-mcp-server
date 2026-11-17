@@ -1,5 +1,6 @@
 export type ErrorCode =
   | "LOCATION_REQUIRED"
+  | "LOGIN_REQUIRED"
   | "NOT_FOUND"
   | "INVALID_INPUT"
   | "RATE_LIMITED"
