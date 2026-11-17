@@ -10,6 +10,8 @@ export interface ToolContext {
   fetchImage: typeof fetch;
   /** Used only to follow short map links to their full form. */
   fetchLink: typeof fetch;
+  /** True when the connected app draws menu cards itself. Absent means it does not. */
+  showsCards?: () => boolean;
 }
 
 export interface ToolResult<Output extends z.ZodRawShape> {
@@ -27,6 +29,8 @@ export interface ToolDefinition<
   input: Input;
   output: Output;
   annotations: ToolAnnotations;
+  /** The result holds venues or dishes that the card view can draw. */
+  cards?: boolean;
   handler(args: z.infer<z.ZodObject<Input>>, context: ToolContext): Promise<ToolResult<Output>>;
 }
 

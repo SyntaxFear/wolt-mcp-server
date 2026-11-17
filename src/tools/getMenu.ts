@@ -1,9 +1,16 @@
 import { z } from "zod";
 import { listItems, outline, WHOLE_MENU_MAX, wholeMenu } from "../domain/menu.js";
-import { DishView, PreferencesView, pageShape, pagingInput } from "../format/views.js";
+import { type Dish, DishView, PreferencesView, pageShape, pagingInput } from "../format/views.js";
 import { attachPictures, THUMBNAIL_WIDTH } from "../media/images.js";
 import { defineTool, READ_WOLT } from "./defineTool.js";
 import { loadMenu, toDishes, venueHeader } from "./menuContext.js";
+import { pictureSheet, pictureSheetShape } from "./pictureSheet.js";
+
+const sheetEntry = (dish: Dish & { picture?: number }) => ({
+  title: dish.name,
+  detail: dish.price.text,
+  picture: dish.picture,
+});
 
 const subcategory = z.object({ slug: z.string(), name: z.string(), dishes: z.number().optional() });
 
@@ -35,8 +42,10 @@ export const getMenu = defineTool({
     shown: pageShape.shown.optional(),
     next_cursor: pageShape.next_cursor,
     preferences: PreferencesView.describe("The user's saved food preferences. Respect them when suggesting dishes."),
+    ...pictureSheetShape,
   },
   annotations: READ_WOLT,
+  cards: true,
   async handler({ venue: slug, category, query, cursor, limit }, context) {
     const menu = await loadMenu(context, slug);
     const { preferences, images: imageMode } = context.config.read();
@@ -56,8 +65,9 @@ export const getMenu = defineTool({
       const sectioned = dishes.map((dish, index) => ({ ...dish, category: whole[index].category }));
       const pictured = await attachPictures(sectioned, THUMBNAIL_WIDTH, imageMode === "always", context.fetchImage);
       const total = sectioned.length;
+      const sheet = await pictureSheet(context, menu.venue.name, pictured.views.map(sheetEntry), pictured.images);
       return {
-        data: { ...header, categories, dishes: pictured.views, total, shown: `1-${total} of ${total}` },
+        data: { ...header, categories, dishes: pictured.views, total, shown: `1-${total} of ${total}`, ...sheet },
         images: pictured.images,
       };
     }
@@ -74,6 +84,7 @@ export const getMenu = defineTool({
     );
     const dishes = await toDishes(context, slug, menu, items, options, false);
     const pictured = await attachPictures(dishes, THUMBNAIL_WIDTH, imageMode === "always", context.fetchImage);
-    return { data: { ...header, dishes: pictured.views, ...paging }, images: pictured.images };
+    const sheet = await pictureSheet(context, menu.venue.name, pictured.views.map(sheetEntry), pictured.images);
+    return { data: { ...header, dishes: pictured.views, ...paging, ...sheet }, images: pictured.images };
   },
 });

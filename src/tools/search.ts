@@ -9,6 +9,7 @@ import { toVenueSummary } from "../domain/venues.js";
 import { type DishHitSummary, DishHitView, pageShape, pagingInput, VenueView } from "../format/views.js";
 import { attachPictures, THUMBNAIL_WIDTH } from "../media/images.js";
 import { defineTool, READ_WOLT } from "./defineTool.js";
+import { pictureSheet, pictureSheetShape } from "./pictureSheet.js";
 
 type DishSort = "relevance" | "price" | "rating" | "delivery_time";
 
@@ -54,9 +55,12 @@ export const search = defineTool({
     venues: z.array(VenueView).optional(),
     dishes: z.array(DishHitView).optional(),
     ...pageShape,
+    ...pictureSheetShape,
   },
   annotations: READ_WOLT,
-  async handler({ query, target, sort = "relevance", cursor, limit }, { http, config, fetchImage }) {
+  cards: true,
+  async handler({ query, target, sort = "relevance", cursor, limit }, context) {
+    const { http, config, fetchImage } = context;
     const location = requireLocation(config);
     const { language, images: imageMode } = config.read();
     if (target === "venues") {
@@ -78,6 +82,12 @@ export const search = defineTool({
       imageMode === "always",
       fetchImage,
     );
-    return { data: { dishes: pictured.views, ...paging }, images: pictured.images };
+    const entries = pictured.views.map((dish) => ({
+      title: dish.name,
+      detail: `${dish.price.text} · ${dish.venue_name}`,
+      picture: dish.picture,
+    }));
+    const sheet = await pictureSheet(context, `Wolt: ${query}`, entries, pictured.images);
+    return { data: { dishes: pictured.views, ...paging, ...sheet }, images: pictured.images };
   },
 });

@@ -1,6 +1,7 @@
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import type { CallToolResult } from "@modelcontextprotocol/sdk/types.js";
 import { WoltError } from "../errors.js";
+import { CARDS_HTML, CARDS_META, CARDS_MIME_TYPE, CARDS_URI, PICTURE_HOSTS } from "../ui/cards.js";
 import type { ToolContext, ToolDefinition } from "./defineTool.js";
 import { getItem } from "./getItem.js";
 import { getMenu } from "./getMenu.js";
@@ -48,6 +49,24 @@ function failure(error: unknown): CallToolResult {
   return { isError: true, content: [{ type: "text", text: JSON.stringify(body) }] };
 }
 
+export function registerCards(server: McpServer): void {
+  server.registerResource(
+    "wolt-cards",
+    CARDS_URI,
+    { title: "Wolt cards", description: "Venue and dish cards shown in the chat", mimeType: CARDS_MIME_TYPE },
+    async () => ({
+      contents: [
+        {
+          uri: CARDS_URI,
+          mimeType: CARDS_MIME_TYPE,
+          text: CARDS_HTML,
+          _meta: { ui: { csp: { resourceDomains: PICTURE_HOSTS }, prefersBorder: false } },
+        },
+      ],
+    }),
+  );
+}
+
 export function registerTools(server: McpServer, context: ToolContext): void {
   for (const tool of tools) {
     server.registerTool(
@@ -58,6 +77,7 @@ export function registerTools(server: McpServer, context: ToolContext): void {
         inputSchema: tool.input,
         outputSchema: tool.output,
         annotations: tool.annotations,
+        ...(tool.cards && { _meta: CARDS_META }),
       },
       (args: Record<string, unknown>) => run(tool, args, context),
     );

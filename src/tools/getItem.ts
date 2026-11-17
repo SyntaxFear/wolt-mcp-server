@@ -25,6 +25,7 @@ export const getItem = defineTool({
       .describe("Allergen, nutrition and product text as Wolt lists it. Empty when Wolt has none."),
   },
   annotations: READ_WOLT,
+  cards: true,
   async handler({ venue: slug, item_id }, context) {
     const menu = await loadMenu(context, slug);
     const [found, sections] = await Promise.all([

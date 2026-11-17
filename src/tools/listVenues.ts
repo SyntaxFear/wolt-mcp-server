@@ -44,6 +44,7 @@ export const listVenues = defineTool({
       .describe("Only with open_now, on the first page"),
   },
   annotations: READ_WOLT,
+  cards: true,
   async handler(args, { http, config }) {
     const location = requireLocation(config);
     const page = PAGE_OF[args.kind ?? "restaurants"];
